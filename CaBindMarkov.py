@@ -15,6 +15,8 @@ N_CA_AP = 5275       # action potential
 CONC_CA_BASE = 1e-7  # ss calcium concentration
 N_CA_BASE = int(round(AXON_VOL * CONC_CA_BASE * AVAGADRO))
 N_CA = N_CA_AP + N_CA_BASE
+CONC_CA_AP = N_CA_AP / AXON_VOL / AVAGADRO
+print(CONC_CA_AP)
 # Calbindin
 CONC_CALB = 45e-6    # M
 N_CALB = int(round(AXON_VOL * CONC_CALB * AVAGADRO))
@@ -199,20 +201,27 @@ n_per_state, ca, k_bind, k_unbind = calb_markov(N_CALB, N_CA, t_range, dt)
 print(ca)
 
 # Gaussian kernel
-r = np.linspace(-4, 4, 100)    # um
-print(t_range[500:]*1000)    # ms
+r, r_step = np.linspace(-4, 4, 100, retstep=True)    # um
+#print(t_range[1000:]*1000)    # ms
 d_cm2_s = 2.2e-6    # cm^2/s
 d_um2_ms = d_cm2_s * ((10**6)**2) / 1000 / (100**2)    # um^2/ms
 r0 = 0.21    # um
 t0 = 0       # ms
 #ca = 1    # number of ca
 
-for i in range(len(ca)-200):
+for i in range(len(ca)-100):
     if i%50==0:
-        plt.plot(r, diffusion_3d(r, t_range[i+200]*1000, d_um2_ms, ca[i+200]/N_CA, t0, t0))
+        amount_of_ca = (2 / 3) * \
+                       np.pi * (r_step ** 3) * \
+                       diffusion_3d(r, t_range[i+100]*1000, d_um2_ms,
+                                    ca[i+100]/N_CA, t0, t0)
+        plt.plot(r, amount_of_ca)
+        #plt.plot(r, diffusion_3d(r, t_range[i+100]*1000, d_um2_ms, ca[i+100]/N_CA, t0, t0))
+        #plt.semilogy(r, diffusion_3d(r, t_range[i+10]*1000, d_um2_ms, ca[i+10]/N_CA, t0, t0))
 
-plt.xlim(-1, 1)
-plt.ylim((0, 1))
+
+plt.xlim(-2, 2)
+#plt.ylim((0, 0.1))
 plt.vlines(-0.21, 0, 1, linestyles='--', colors='k')
 plt.title("Spatial distribution of calcium with time")
 plt.xlabel("Radius, (um)")

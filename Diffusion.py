@@ -11,9 +11,6 @@ def diffusion_3d(r, t, diff_const, impulse=1, t0=0, r0=0):
      impulse:   impulse injection at t0
      t0: time of impulse (relative time)
      r0: location of impulse (relative location)
-    b:   position of the center of the peak
-    c:   standard deviation; width of bell
-    x:   input vector
     '''
 
     reflection_factor = 2    # accounts for reflection on z-axis
@@ -26,21 +23,25 @@ def diffusion_3d(r, t, diff_const, impulse=1, t0=0, r0=0):
     return (input / norm_term) * np.exp(exp_term)
     #return a * np.exp((-(x - b) ** 2) / c)
 
-r = np.linspace(-4, 4, 100)    # um
-print(r)
+r, r_step = np.linspace(0, 4, 100, retstep=True)    # um
+#print(r_step)
 t_range = np.linspace(0.6, 5)    # ms
-print(t_range)
+#print(t_range)
 d_cm2_s = 2.2e-6    # cm^2/s
 d_um2_ms = d_cm2_s * ((10**6)**2) / 1000 / (100**2)    # um^2/ms
 r0 = 0.21    # um
 t0 = 0       # ms
 ca = 1    # number of ca
 
+
 for t in t_range:
-    plt.plot(r, diffusion_3d(r, t, d_um2_ms, ca, t0, t0), label=t)
+    #amount_of_ca = (2/3)*np.pi*(r_step**3)*diffusion_3d(r, t, d_um2_ms, ca, t0, t0)
+    amount_of_ca = (2 / 3) * np.pi * (r**2) * r_step * diffusion_3d(r, t, d_um2_ms, ca, t0, t0)
+    #plt.plot(r, diffusion_3d(r, t, d_um2_ms, ca, t0, t0))
+    plt.plot(r, amount_of_ca)
 
 plt.title('Calcium diffusion')
 plt.xlabel('Radius (nm)')
-plt.ylabel('Normalized number of calcium')
+plt.ylabel('Concentration of calcium')
 #plt.legend()
-#plt.show()
+plt.show()
