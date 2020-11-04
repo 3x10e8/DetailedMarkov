@@ -1,0 +1,3344 @@
+MCell initializing simulation...
+MCell[0]: random sequence 817
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 818
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 819
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 820
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 821
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 822
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 823
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 824
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 825
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:08 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 826
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 827
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 828
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 829
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 830
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+MCell initializing simulation...
+MCell[0]: random sequence 831
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+MCell initializing simulation...
+MCell[0]: random sequence 832
+MCell 3.4 (commit: d990863  date: Fri, 2 Aug 2019 14:19:24 -0700)
+  Running on hopper006 at Fri Oct 16 22:46:09 2020
+
+  Copyright (C) 2006-2018 by
+    The National Center for Multiscale Modeling of Biological Systems,
+    The Salk Institute for Biological Studies, and
+    Pittsburgh Supercomputing Center, Carnegie Mellon University,
+
+
+**********************************************************************
+MCell development is supported by the NIGMS-funded (P41GM103712)
+National Center for Multiscale Modeling of Biological Systems (MMBioS).
+Please acknowledge MCell in your publications.
+**********************************************************************
+
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Defining molecules with the following theoretical average diffusion distances:
+  delta t=70.1 timesteps for calbindin_h0m0
+  delta t=70.1 timesteps for calbindin_h0m1
+  delta t=70.1 timesteps for calbindin_h0m2
+  delta t=70.1 timesteps for calbindin_h1m0
+  delta t=70.1 timesteps for calbindin_h1m1
+  delta t=70.1 timesteps for calbindin_h1m2
+  delta t=70.1 timesteps for calbindin_h2m0
+  delta t=70.1 timesteps for calbindin_h2m1
+  delta t=70.1 timesteps for calbindin_h2m2
+  delta t=0.1 timesteps for ca
+
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h2m0{0} -> calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m2{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 7.1600e-05 set for calbindin_h0m2{0} -> ca{0} calbindin_h0m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h1m0{0} -> calbindin_h1m1{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m0{0} -> calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m2{0} -> ca{0} calbindin_h0m2{0} 
+	Probability 7.1600e-05 set for calbindin_h1m2{0} -> ca{0} calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h2m1{0} -> calbindin_h2m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h0m1{0} -> calbindin_h0m2{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m1{0} -> calbindin_h1m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m0{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m2{0} -> calbindin_h1m2{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 3.5800e-05 set for calbindin_h0m1{0} -> ca{0} calbindin_h0m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.6000e-06 set for calbindin_h1m1{0} -> ca{0} calbindin_h0m1{0} 
+	Probability 3.5800e-05 set for calbindin_h1m1{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m0{0} -> ca{0} calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 2.7296e-02 set for ca{0} + calbindin_h0m0{0} -> calbindin_h0m1{0} 
+	Probability 3.4512e-03 set for ca{0} + calbindin_h0m0{0} -> calbindin_h1m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m1{0} -> ca{0} calbindin_h1m1{0} 
+	Probability 3.5800e-05 set for calbindin_h2m1{0} -> ca{0} calbindin_h2m0{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 5.2000e-06 set for calbindin_h2m2{0} -> ca{0} calbindin_h1m2{0} 
+	Probability 7.1600e-05 set for calbindin_h2m2{0} -> ca{0} calbindin_h2m1{0} 
+
+Reaction probabilities generated for the following reactions:
+	Probability 1.3648e-02 set for ca{0} + calbindin_h1m1{0} -> calbindin_h1m2{0} 
+	Probability 1.7256e-03 set for ca{0} + calbindin_h1m1{0} -> calbindin_h2m1{0} 
+
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Iterations: 0 of 10000 
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Released 60 ca from "Scene.ca_pre_rel" at iteration 0.
+Released 8661 calbindin_h0m0 from "Scene.calbindin_h0m0_pre_rel" at iteration 0.
+Released 4209 calbindin_h0m1 from "Scene.calbindin_h0m1_pre_rel" at iteration 0.
+Released 511 calbindin_h0m2 from "Scene.calbindin_h0m2_pre_rel" at iteration 0.
+Released 7328 calbindin_h1m0 from "Scene.calbindin_h1m0_pre_rel" at iteration 0.
+Released 3562 calbindin_h1m1 from "Scene.calbindin_h1m1_pre_rel" at iteration 0.
+Released 433 calbindin_h1m2 from "Scene.calbindin_h1m2_pre_rel" at iteration 0.
+Released 1550 calbindin_h2m0 from "Scene.calbindin_h2m0_pre_rel" at iteration 0.
+Released 753 calbindin_h2m1 from "Scene.calbindin_h2m1_pre_rel" at iteration 0.
+Released 92 calbindin_h2m2 from "Scene.calbindin_h2m2_pre_rel" at iteration 0.
+Released 5275 ca from "Scene.ca_rel_ap" at iteration 0.
+Iterations: 0 of 10000 
+Iterations: 100 of 10000  (18.6713 iter/sec)
+Iterations: 100 of 10000  (18.6048 iter/sec)
+Iterations: 100 of 10000  (18.6772 iter/sec)
+Iterations: 100 of 10000  (18.7132 iter/sec)
+Iterations: 100 of 10000  (18.6593 iter/sec)
+Iterations: 100 of 10000  (18.3818 iter/sec)
+Iterations: 100 of 10000  (18.5728 iter/sec)
+Iterations: 100 of 10000  (18.6611 iter/sec)
+Iterations: 100 of 10000  (18.8514 iter/sec)
+Iterations: 100 of 10000  (18.9398 iter/sec)
+Iterations: 100 of 10000  (18.5876 iter/sec)
+Iterations: 100 of 10000  (18.8981 iter/sec)
+Iterations: 100 of 10000  (18.7869 iter/sec)
+Iterations: 100 of 10000  (18.7805 iter/sec)
+Iterations: 100 of 10000  (18.7474 iter/sec)
+Iterations: 100 of 10000  (18.5089 iter/sec)
+Iterations: 200 of 10000  (34.22 iter/sec)
+Iterations: 200 of 10000  (34.8954 iter/sec)
+Iterations: 200 of 10000  (34.0483 iter/sec)
+Iterations: 200 of 10000  (34.5247 iter/sec)
+Iterations: 200 of 10000  (34.3522 iter/sec)
+Iterations: 200 of 10000  (34.9964 iter/sec)
+Iterations: 200 of 10000  (34.0698 iter/sec)
+Iterations: 200 of 10000  (34.8653 iter/sec)
+Iterations: 200 of 10000  (34.2808 iter/sec)
+Iterations: 200 of 10000  (35.1014 iter/sec)
+Iterations: 200 of 10000  (34.1088 iter/sec)
+Iterations: 200 of 10000  (34.3144 iter/sec)
+Iterations: 200 of 10000  (34.3553 iter/sec)
+Iterations: 200 of 10000  (33.8903 iter/sec)
+Iterations: 200 of 10000  (34.6097 iter/sec)
+Iterations: 200 of 10000  (34.271 iter/sec)
+Iterations: 300 of 10000  (60.7325 iter/sec)
+Iterations: 300 of 10000  (60.1715 iter/sec)
+Iterations: 300 of 10000  (61.6109 iter/sec)
+Iterations: 300 of 10000  (59.11 iter/sec)
+Iterations: 300 of 10000  (62.6328 iter/sec)
+Iterations: 300 of 10000  (61.4038 iter/sec)
+Iterations: 300 of 10000  (61.3671 iter/sec)
+Iterations: 300 of 10000  (62.6758 iter/sec)
+Iterations: 300 of 10000  (60.8233 iter/sec)
+Iterations: 300 of 10000  (61.2848 iter/sec)
+Iterations: 300 of 10000  (60.5828 iter/sec)
+Iterations: 300 of 10000  (61.8611 iter/sec)
+Iterations: 300 of 10000  (62.7968 iter/sec)
+Iterations: 300 of 10000  (60.4672 iter/sec)
+Iterations: 300 of 10000  (59.8322 iter/sec)
+Iterations: 300 of 10000  (61.3226 iter/sec)
+Iterations: 400 of 10000  (105.378 iter/sec)
+Iterations: 400 of 10000  (98.9673 iter/sec)
+Iterations: 400 of 10000  (101.722 iter/sec)
+Iterations: 400 of 10000  (103.957 iter/sec)
+Iterations: 400 of 10000  (103.106 iter/sec)
+Iterations: 400 of 10000  (97.6318 iter/sec)
+Iterations: 400 of 10000  (107.226 iter/sec)
+Iterations: 400 of 10000  (102.681 iter/sec)
+Iterations: 400 of 10000  (103.281 iter/sec)
+Iterations: 400 of 10000  (107.661 iter/sec)
+Iterations: 400 of 10000  (101.845 iter/sec)
+Iterations: 400 of 10000  (97.3031 iter/sec)
+Iterations: 400 of 10000  (104.888 iter/sec)
+Iterations: 400 of 10000  (103.951 iter/sec)
+Iterations: 400 of 10000  (102.484 iter/sec)
+Iterations: 500 of 10000  (176.867 iter/sec)
+Iterations: 400 of 10000  (101.235 iter/sec)
+Iterations: 500 of 10000  (176.239 iter/sec)
+Iterations: 500 of 10000  (163.79 iter/sec)
+Iterations: 500 of 10000  (173.61 iter/sec)
+Iterations: 500 of 10000  (170.919 iter/sec)
+Iterations: 500 of 10000  (173.416 iter/sec)
+Iterations: 500 of 10000  (177.783 iter/sec)
+Iterations: 500 of 10000  (178.468 iter/sec)
+Iterations: 500 of 10000  (171.067 iter/sec)
+Iterations: 500 of 10000  (181.54 iter/sec)
+Iterations: 500 of 10000  (170.324 iter/sec)
+Iterations: 600 of 10000  (290.455 iter/sec)
+Iterations: 500 of 10000  (183.073 iter/sec)
+Iterations: 500 of 10000  (159.315 iter/sec)
+Iterations: 500 of 10000  (180.54 iter/sec)
+Iterations: 600 of 10000  (296.106 iter/sec)
+Iterations: 500 of 10000  (173.308 iter/sec)
+Iterations: 600 of 10000  (267.204 iter/sec)
+Iterations: 600 of 10000  (245.741 iter/sec)
+Iterations: 600 of 10000  (287.846 iter/sec)
+Iterations: 600 of 10000  (264.988 iter/sec)
+Iterations: 600 of 10000  (269.08 iter/sec)
+Iterations: 600 of 10000  (257.467 iter/sec)
+Iterations: 600 of 10000  (282.847 iter/sec)
+Iterations: 600 of 10000  (269.887 iter/sec)
+Iterations: 500 of 10000  (174.911 iter/sec)
+Iterations: 700 of 10000  (341.107 iter/sec)
+Iterations: 600 of 10000  (269.841 iter/sec)
+Iterations: 700 of 10000  (356 iter/sec)
+Iterations: 600 of 10000  (258.572 iter/sec)
+Iterations: 600 of 10000  (275.701 iter/sec)
+Iterations: 600 of 10000  (252.706 iter/sec)
+Iterations: 700 of 10000  (341.945 iter/sec)
+Iterations: 800 of 10000  (458.169 iter/sec)
+Iterations: 700 of 10000  (344.143 iter/sec)
+Iterations: 600 of 10000  (258.319 iter/sec)
+Iterations: 700 of 10000  (316.308 iter/sec)
+Iterations: 700 of 10000  (322.265 iter/sec)
+Iterations: 700 of 10000  (317.56 iter/sec)
+Iterations: 700 of 10000  (323.98 iter/sec)
+Iterations: 700 of 10000  (320 iter/sec)
+Iterations: 700 of 10000  (305.1 iter/sec)
+Iterations: 800 of 10000  (476.515 iter/sec)
+Iterations: 700 of 10000  (312.147 iter/sec)
+Iterations: 600 of 10000  (263.044 iter/sec)
+Iterations: 800 of 10000  (474.154 iter/sec)
+Iterations: 900 of 10000  (462.759 iter/sec)
+Iterations: 700 of 10000  (315.408 iter/sec)
+Iterations: 800 of 10000  (434.705 iter/sec)
+Iterations: 800 of 10000  (453.393 iter/sec)
+Iterations: 700 of 10000  (331.85 iter/sec)
+Iterations: 800 of 10000  (453.519 iter/sec)
+Iterations: 800 of 10000  (459.048 iter/sec)
+Iterations: 700 of 10000  (320.542 iter/sec)
+Iterations: 800 of 10000  (449.851 iter/sec)
+Iterations: 800 of 10000  (415.12 iter/sec)
+Iterations: 800 of 10000  (441.228 iter/sec)
+Iterations: 900 of 10000  (454.816 iter/sec)
+Iterations: 700 of 10000  (327.213 iter/sec)
+Iterations: 800 of 10000  (448.658 iter/sec)
+Iterations: 1000 of 10000  (610.736 iter/sec)
+Iterations: 900 of 10000  (429.177 iter/sec)
+Iterations: 800 of 10000  (449.242 iter/sec)
+Iterations: 700 of 10000  (324.288 iter/sec)
+Iterations: 800 of 10000  (471.959 iter/sec)
+Iterations: 900 of 10000  (457.49 iter/sec)
+Iterations: 900 of 10000  (484.062 iter/sec)
+Iterations: 900 of 10000  (447.529 iter/sec)
+Iterations: 900 of 10000  (416.311 iter/sec)
+Iterations: 800 of 10000  (461.512 iter/sec)
+Iterations: 1000 of 10000  (548.044 iter/sec)
+Iterations: 900 of 10000  (427.475 iter/sec)
+Iterations: 900 of 10000  (416.776 iter/sec)
+Iterations: 900 of 10000  (413.514 iter/sec)
+Iterations: 900 of 10000  (483.498 iter/sec)
+Iterations: 800 of 10000  (439.518 iter/sec)
+Iterations: 1100 of 10000  (522.321 iter/sec)
+Iterations: 1000 of 10000  (618.334 iter/sec)
+Iterations: 1000 of 10000  (524.59 iter/sec)
+Iterations: 1000 of 10000  (605.565 iter/sec)
+Iterations: 900 of 10000  (480.384 iter/sec)
+Iterations: 1000 of 10000  (540.769 iter/sec)
+Iterations: 1000 of 10000  (546.35 iter/sec)
+Iterations: 900 of 10000  (446.518 iter/sec)
+Iterations: 800 of 10000  (422.101 iter/sec)
+Iterations: 1000 of 10000  (558.516 iter/sec)
+Iterations: 1100 of 10000  (495.678 iter/sec)
+Iterations: 1000 of 10000  (606.796 iter/sec)
+Iterations: 900 of 10000  (437.034 iter/sec)
+Iterations: 1000 of 10000  (525.406 iter/sec)
+Iterations: 1200 of 10000  (668.119 iter/sec)
+Iterations: 1000 of 10000  (504.337 iter/sec)
+Iterations: 900 of 10000  (427.223 iter/sec)
+Iterations: 1100 of 10000  (566.117 iter/sec)
+Iterations: 1100 of 10000  (557.072 iter/sec)
+Iterations: 1000 of 10000  (550.518 iter/sec)
+Iterations: 1100 of 10000  (477.626 iter/sec)
+Iterations: 1100 of 10000  (491.879 iter/sec)
+Iterations: 1100 of 10000  (480.141 iter/sec)
+Iterations: 1000 of 10000  (514.917 iter/sec)
+Iterations: 1300 of 10000  (673.364 iter/sec)
+Iterations: 1200 of 10000  (556.05 iter/sec)
+Iterations: 1000 of 10000  (550.234 iter/sec)
+Iterations: 1100 of 10000  (514.11 iter/sec)
+Iterations: 1100 of 10000  (515.413 iter/sec)
+Iterations: 900 of 10000  (417.162 iter/sec)
+Iterations: 1100 of 10000  (490.215 iter/sec)
+Iterations: 1100 of 10000  (475.296 iter/sec)
+Iterations: 1200 of 10000  (623.096 iter/sec)
+Iterations: 1000 of 10000  (574.389 iter/sec)
+Iterations: 1200 of 10000  (655.39 iter/sec)
+Iterations: 1200 of 10000  (600.51 iter/sec)
+Iterations: 1200 of 10000  (619.487 iter/sec)
+Iterations: 1200 of 10000  (574.178 iter/sec)
+Iterations: 1100 of 10000  (459.686 iter/sec)
+Iterations: 1300 of 10000  (582.666 iter/sec)
+Iterations: 1200 of 10000  (623.049 iter/sec)
+Iterations: 1200 of 10000  (636.387 iter/sec)
+Iterations: 1100 of 10000  (488.653 iter/sec)
+Iterations: 1400 of 10000  (489.572 iter/sec)
+Iterations: 1200 of 10000  (584.912 iter/sec)
+Iterations: 1100 of 10000  (466.81 iter/sec)
+Iterations: 1000 of 10000  (538.619 iter/sec)
+Iterations: 1200 of 10000  (579.74 iter/sec)
+Iterations: 1300 of 10000  (597.339 iter/sec)
+Iterations: 1300 of 10000  (627.4 iter/sec)
+Iterations: 1100 of 10000  (537.756 iter/sec)
+Iterations: 1300 of 10000  (602.497 iter/sec)
+Iterations: 1300 of 10000  (604.146 iter/sec)
+Iterations: 1300 of 10000  (666.733 iter/sec)
+Iterations: 1300 of 10000  (567.067 iter/sec)
+Iterations: 1300 of 10000  (634.82 iter/sec)
+Iterations: 1200 of 10000  (642.826 iter/sec)
+Iterations: 1500 of 10000  (565.723 iter/sec)
+Iterations: 1200 of 10000  (499.079 iter/sec)
+Iterations: 1400 of 10000  (492.98 iter/sec)
+Iterations: 1300 of 10000  (588.381 iter/sec)
+Iterations: 1300 of 10000  (534.102 iter/sec)
+Iterations: 1200 of 10000  (627.821 iter/sec)
+Iterations: 1200 of 10000  (492.749 iter/sec)
+Iterations: 1400 of 10000  (528.259 iter/sec)
+Iterations: 1100 of 10000  (491.898 iter/sec)
+Iterations: 1400 of 10000  (514.639 iter/sec)
+Iterations: 1400 of 10000  (532.184 iter/sec)
+Iterations: 1400 of 10000  (530.915 iter/sec)
+Iterations: 1400 of 10000  (577.421 iter/sec)
+Iterations: 1300 of 10000  (641.585 iter/sec)
+Iterations: 1400 of 10000  (532.507 iter/sec)
+Iterations: 1500 of 10000  (641.466 iter/sec)
+Iterations: 1400 of 10000  (465.513 iter/sec)
+Iterations: 1300 of 10000  (663.975 iter/sec)
+Iterations: 1300 of 10000  (492.827 iter/sec)
+Iterations: 1600 of 10000  (480.843 iter/sec)
+Iterations: 1400 of 10000  (531.465 iter/sec)
+Iterations: 1500 of 10000  (604.957 iter/sec)
+Iterations: 1200 of 10000  (595.192 iter/sec)
+Iterations: 1500 of 10000  (572.869 iter/sec)
+Iterations: 1400 of 10000  (466.492 iter/sec)
+Iterations: 1300 of 10000  (497.517 iter/sec)
+Iterations: 1500 of 10000  (586.792 iter/sec)
+Iterations: 1500 of 10000  (642.034 iter/sec)
+Iterations: 1500 of 10000  (620.455 iter/sec)
+Iterations: 1500 of 10000  (596.015 iter/sec)
+Iterations: 1400 of 10000  (540.742 iter/sec)
+Iterations: 1600 of 10000  (567.479 iter/sec)
+Iterations: 1500 of 10000  (555.985 iter/sec)
+Iterations: 1700 of 10000  (555.189 iter/sec)
+Iterations: 1500 of 10000  (572.357 iter/sec)
+Iterations: 1400 of 10000  (525.511 iter/sec)
+Iterations: 1300 of 10000  (598.58 iter/sec)
+Iterations: 1400 of 10000  (464.675 iter/sec)
+Iterations: 1500 of 10000  (547.717 iter/sec)
+Iterations: 1600 of 10000  (488.919 iter/sec)
+Iterations: 1600 of 10000  (487.922 iter/sec)
+Iterations: 1500 of 10000  (678.679 iter/sec)
+Iterations: 1600 of 10000  (497.906 iter/sec)
+Iterations: 1600 of 10000  (542.446 iter/sec)
+Iterations: 1400 of 10000  (457.199 iter/sec)
+Iterations: 1600 of 10000  (502.475 iter/sec)
+Iterations: 1700 of 10000  (601.142 iter/sec)
+Iterations: 1600 of 10000  (504.78 iter/sec)
+Iterations: 1500 of 10000  (609.752 iter/sec)
+Iterations: 1600 of 10000  (483.395 iter/sec)
+Iterations: 1500 of 10000  (585.854 iter/sec)
+Iterations: 1800 of 10000  (475.364 iter/sec)
+Iterations: 1700 of 10000  (588.294 iter/sec)
+Iterations: 1400 of 10000  (483.973 iter/sec)
+Iterations: 1700 of 10000  (602.864 iter/sec)
+Iterations: 1600 of 10000  (445.385 iter/sec)
+Iterations: 1600 of 10000  (512.135 iter/sec)
+Iterations: 1700 of 10000  (668.092 iter/sec)
+Iterations: 1700 of 10000  (633.08 iter/sec)
+Iterations: 1500 of 10000  (589.616 iter/sec)
+Iterations: 1600 of 10000  (548.917 iter/sec)
+Iterations: 1700 of 10000  (589.859 iter/sec)
+Iterations: 1700 of 10000  (588.104 iter/sec)
+Iterations: 1800 of 10000  (541.275 iter/sec)
+Iterations: 1700 of 10000  (599.265 iter/sec)
+Iterations: 1600 of 10000  (529.406 iter/sec)
+Iterations: 1900 of 10000  (608.339 iter/sec)
+Iterations: 1500 of 10000  (573.714 iter/sec)
+Iterations: 1600 of 10000  (496.924 iter/sec)
+Iterations: 1700 of 10000  (584.327 iter/sec)
+Iterations: 1800 of 10000  (511.899 iter/sec)
+Iterations: 1700 of 10000  (661.796 iter/sec)
+Iterations: 1700 of 10000  (548.059 iter/sec)
+Iterations: 1800 of 10000  (514.067 iter/sec)
+Iterations: 1800 of 10000  (538.895 iter/sec)
+Iterations: 1800 of 10000  (532.105 iter/sec)
+Iterations: 1900 of 10000  (726.127 iter/sec)
+Iterations: 1600 of 10000  (502.081 iter/sec)
+Iterations: 1800 of 10000  (474.323 iter/sec)
+Iterations: 1800 of 10000  (513.015 iter/sec)
+Iterations: 1700 of 10000  (640.861 iter/sec)
+Iterations: 1800 of 10000  (492.024 iter/sec)
+Iterations: 2000 of 10000  (585.127 iter/sec)
+Iterations: 1900 of 10000  (654.142 iter/sec)
+Iterations: 1700 of 10000  (579.902 iter/sec)
+Iterations: 1900 of 10000  (591.842 iter/sec)
+Iterations: 1900 of 10000  (621.519 iter/sec)
+Iterations: 1600 of 10000  (512.868 iter/sec)
+Iterations: 2000 of 10000  (638.419 iter/sec)
+Iterations: 1900 of 10000  (613.678 iter/sec)
+Iterations: 1800 of 10000  (528.17 iter/sec)
+Iterations: 1800 of 10000  (504.009 iter/sec)
+Iterations: 1800 of 10000  (480.298 iter/sec)
+Iterations: 1700 of 10000  (571.109 iter/sec)
+Iterations: 1900 of 10000  (641.993 iter/sec)
+Iterations: 1900 of 10000  (580.397 iter/sec)
+Iterations: 1800 of 10000  (541.938 iter/sec)
+Iterations: 1900 of 10000  (573.263 iter/sec)
+Iterations: 2000 of 10000  (659.013 iter/sec)
+Iterations: 2000 of 10000  (651.835 iter/sec)
+Iterations: 2100 of 10000  (496.17 iter/sec)
+Iterations: 2000 of 10000  (602.435 iter/sec)
+Iterations: 1700 of 10000  (583.07 iter/sec)
+Iterations: 2000 of 10000  (619.947 iter/sec)
+Iterations: 1900 of 10000  (619.291 iter/sec)
+Iterations: 1800 of 10000  (510.84 iter/sec)
+Iterations: 2100 of 10000  (559.744 iter/sec)
+Iterations: 1900 of 10000  (577.871 iter/sec)
+Iterations: 1900 of 10000  (593.983 iter/sec)
+Iterations: 2000 of 10000  (628.125 iter/sec)
+Iterations: 2000 of 10000  (603.489 iter/sec)
+Iterations: 1800 of 10000  (484.053 iter/sec)
+Iterations: 1900 of 10000  (645.699 iter/sec)
+Iterations: 2000 of 10000  (554.038 iter/sec)
+Iterations: 2100 of 10000  (536.944 iter/sec)
+Iterations: 2100 of 10000  (551.371 iter/sec)
+Iterations: 2200 of 10000  (581.862 iter/sec)
+Iterations: 2000 of 10000  (628.338 iter/sec)
+Iterations: 1900 of 10000  (654.245 iter/sec)
+Iterations: 2200 of 10000  (652.916 iter/sec)
+Iterations: 2000 of 10000  (589.449 iter/sec)
+Iterations: 2000 of 10000  (618.204 iter/sec)
+Iterations: 2100 of 10000  (515.278 iter/sec)
+Iterations: 2100 of 10000  (490.014 iter/sec)
+Iterations: 1800 of 10000  (475.792 iter/sec)
+Iterations: 2100 of 10000  (499.274 iter/sec)
+Iterations: 1900 of 10000  (594.948 iter/sec)
+Iterations: 2000 of 10000  (640.652 iter/sec)
+Iterations: 2100 of 10000  (498.96 iter/sec)
+Iterations: 2200 of 10000  (685.603 iter/sec)
+Iterations: 2200 of 10000  (635.999 iter/sec)
+Iterations: 2000 of 10000  (629.24 iter/sec)
+Iterations: 2100 of 10000  (498.286 iter/sec)
+Iterations: 2300 of 10000  (526.684 iter/sec)
+Iterations: 2100 of 10000  (514.695 iter/sec)
+Iterations: 2200 of 10000  (616.109 iter/sec)
+Iterations: 2300 of 10000  (527.462 iter/sec)
+Iterations: 2200 of 10000  (572.318 iter/sec)
+Iterations: 2100 of 10000  (549.019 iter/sec)
+Iterations: 1900 of 10000  (559.481 iter/sec)
+Iterations: 2100 of 10000  (487.731 iter/sec)
+Iterations: 2000 of 10000  (596.008 iter/sec)
+Iterations: 2200 of 10000  (585.405 iter/sec)
+Iterations: 2100 of 10000  (534.12 iter/sec)
+Iterations: 2200 of 10000  (559.365 iter/sec)
+Iterations: 2300 of 10000  (588.793 iter/sec)
+Iterations: 2300 of 10000  (519.397 iter/sec)
+Iterations: 2400 of 10000  (621.918 iter/sec)
+Iterations: 2200 of 10000  (550.612 iter/sec)
+Iterations: 2200 of 10000  (594.714 iter/sec)
+Iterations: 2400 of 10000  (566.942 iter/sec)
+Iterations: 2100 of 10000  (491.811 iter/sec)
+Iterations: 2200 of 10000  (635.861 iter/sec)
+Iterations: 2300 of 10000  (491.763 iter/sec)
+Iterations: 2300 of 10000  (517.955 iter/sec)
+Iterations: 2000 of 10000  (554.281 iter/sec)
+Iterations: 2200 of 10000  (551.174 iter/sec)
+Iterations: 2300 of 10000  (532.566 iter/sec)
+Iterations: 2200 of 10000  (578.372 iter/sec)
+Iterations: 2100 of 10000  (490.16 iter/sec)
+Iterations: 2400 of 10000  (620.082 iter/sec)
+Iterations: 2300 of 10000  (496.246 iter/sec)
+Iterations: 2400 of 10000  (636.064 iter/sec)
+Iterations: 2500 of 10000  (533.986 iter/sec)
+Iterations: 2200 of 10000  (546.765 iter/sec)
+Iterations: 2500 of 10000  (529.341 iter/sec)
+Iterations: 2300 of 10000  (526.269 iter/sec)
+Iterations: 2300 of 10000  (497.46 iter/sec)
+Iterations: 2400 of 10000  (593.014 iter/sec)
+Iterations: 2300 of 10000  (478.194 iter/sec)
+Iterations: 2400 of 10000  (564.755 iter/sec)
+Iterations: 2100 of 10000  (508.551 iter/sec)
+Iterations: 2400 of 10000  (587.592 iter/sec)
+Iterations: 2300 of 10000  (485.02 iter/sec)
+Iterations: 2200 of 10000  (575.768 iter/sec)
+Iterations: 2400 of 10000  (567.791 iter/sec)
+Iterations: 2500 of 10000  (514.771 iter/sec)
+Iterations: 2300 of 10000  (461.589 iter/sec)
+Iterations: 2500 of 10000  (578.155 iter/sec)
+Iterations: 2600 of 10000  (599.251 iter/sec)
+Iterations: 2600 of 10000  (621.072 iter/sec)
+Iterations: 2400 of 10000  (609.611 iter/sec)
+Iterations: 2400 of 10000  (599.581 iter/sec)
+Iterations: 2300 of 10000  (499.037 iter/sec)
+Iterations: 2400 of 10000  (544.849 iter/sec)
+Iterations: 2500 of 10000  (511.318 iter/sec)
+Iterations: 2200 of 10000  (570.304 iter/sec)
+Iterations: 2500 of 10000  (484.459 iter/sec)
+Iterations: 2400 of 10000  (559.945 iter/sec)
+Iterations: 2600 of 10000  (677.562 iter/sec)
+Iterations: 2500 of 10000  (487.113 iter/sec)
+Iterations: 2600 of 10000  (583.839 iter/sec)
+Iterations: 2300 of 10000  (473.149 iter/sec)
+Iterations: 2400 of 10000  (549.432 iter/sec)
+Iterations: 2500 of 10000  (462.637 iter/sec)
+Iterations: 2700 of 10000  (574.05 iter/sec)
+Iterations: 2700 of 10000  (572.6 iter/sec)
+Iterations: 2500 of 10000  (501.419 iter/sec)
+Iterations: 2600 of 10000  (626.716 iter/sec)
+Iterations: 2500 of 10000  (517.127 iter/sec)
+Iterations: 2400 of 10000  (562.237 iter/sec)
+Iterations: 2600 of 10000  (596.37 iter/sec)
+Iterations: 2500 of 10000  (503.203 iter/sec)
+Iterations: 2700 of 10000  (616.504 iter/sec)
+Iterations: 2600 of 10000  (610.46 iter/sec)
+Iterations: 2300 of 10000  (466.407 iter/sec)
+Iterations: 2700 of 10000  (603.078 iter/sec)
+Iterations: 2500 of 10000  (497.006 iter/sec)
+Iterations: 2400 of 10000  (525.5 iter/sec)
+Iterations: 2500 of 10000  (522.201 iter/sec)
+Iterations: 2600 of 10000  (549.245 iter/sec)
+Iterations: 2600 of 10000  (651.131 iter/sec)
+Iterations: 2800 of 10000  (499.63 iter/sec)
+Iterations: 2700 of 10000  (588.211 iter/sec)
+Iterations: 2800 of 10000  (477.457 iter/sec)
+Iterations: 2600 of 10000  (568.395 iter/sec)
+Iterations: 2600 of 10000  (638.085 iter/sec)
+Iterations: 2700 of 10000  (610.285 iter/sec)
+Iterations: 2700 of 10000  (665.841 iter/sec)
+Iterations: 2500 of 10000  (459.455 iter/sec)
+Iterations: 2400 of 10000  (562.692 iter/sec)
+Iterations: 2800 of 10000  (527.073 iter/sec)
+Iterations: 2600 of 10000  (561.539 iter/sec)
+Iterations: 2800 of 10000  (532.518 iter/sec)
+Iterations: 2600 of 10000  (628.366 iter/sec)
+Iterations: 2700 of 10000  (599.51 iter/sec)
+Iterations: 2700 of 10000  (616.911 iter/sec)
+Iterations: 2500 of 10000  (470.139 iter/sec)
+Iterations: 2700 of 10000  (665.416 iter/sec)
+Iterations: 2900 of 10000  (586.954 iter/sec)
+Iterations: 2900 of 10000  (553.664 iter/sec)
+Iterations: 2700 of 10000  (530.526 iter/sec)
+Iterations: 2800 of 10000  (542.173 iter/sec)
+Iterations: 2800 of 10000  (468.27 iter/sec)
+Iterations: 2600 of 10000  (559.82 iter/sec)
+Iterations: 2800 of 10000  (518.863 iter/sec)
+Iterations: 2900 of 10000  (614.575 iter/sec)
+Iterations: 2700 of 10000  (594.378 iter/sec)
+Iterations: 2900 of 10000  (607.36 iter/sec)
+Iterations: 2500 of 10000  (511.127 iter/sec)
+Iterations: 2700 of 10000  (591.923 iter/sec)
+Iterations: 2800 of 10000  (498.514 iter/sec)
+Iterations: 2600 of 10000  (554.376 iter/sec)
+Iterations: 2800 of 10000  (500.503 iter/sec)
+Iterations: 2800 of 10000  (519.079 iter/sec)
+Iterations: 3000 of 10000  (519.168 iter/sec)
+Iterations: 2900 of 10000  (605.202 iter/sec)
+Iterations: 3000 of 10000  (470.974 iter/sec)
+Iterations: 2700 of 10000  (626.468 iter/sec)
+Iterations: 2900 of 10000  (575.341 iter/sec)
+Iterations: 2800 of 10000  (453.03 iter/sec)
+Iterations: 2900 of 10000  (482.632 iter/sec)
+Iterations: 2600 of 10000  (637.865 iter/sec)
+Iterations: 3000 of 10000  (494.45 iter/sec)
+Iterations: 2800 of 10000  (505.326 iter/sec)
+Iterations: 3000 of 10000  (498.336 iter/sec)
+Iterations: 2800 of 10000  (516.468 iter/sec)
+Iterations: 2900 of 10000  (588.339 iter/sec)
+Iterations: 2900 of 10000  (584.064 iter/sec)
+Iterations: 2700 of 10000  (537.903 iter/sec)
+Iterations: 2900 of 10000  (583.383 iter/sec)
+Iterations: 3100 of 10000  (577.577 iter/sec)
+Iterations: 3100 of 10000  (566.999 iter/sec)
+Iterations: 3000 of 10000  (491.99 iter/sec)
+Iterations: 2800 of 10000  (515.879 iter/sec)
+Iterations: 2900 of 10000  (551.879 iter/sec)
+Iterations: 2700 of 10000  (572.207 iter/sec)
+Iterations: 3000 of 10000  (505.937 iter/sec)
+Iterations: 3100 of 10000  (534.037 iter/sec)
+Iterations: 3100 of 10000  (565.877 iter/sec)
+Iterations: 2900 of 10000  (543.555 iter/sec)
+Iterations: 2900 of 10000  (590.476 iter/sec)
+Iterations: 3000 of 10000  (449.41 iter/sec)
+Iterations: 3000 of 10000  (502.25 iter/sec)
+Iterations: 3000 of 10000  (510.699 iter/sec)
+Iterations: 2800 of 10000  (491.415 iter/sec)
+Iterations: 3000 of 10000  (511.616 iter/sec)
+Iterations: 3200 of 10000  (515.44 iter/sec)
+Iterations: 3100 of 10000  (580.734 iter/sec)
+Iterations: 2900 of 10000  (600.294 iter/sec)
+Iterations: 3200 of 10000  (492.737 iter/sec)
+Iterations: 3100 of 10000  (613.012 iter/sec)
+Iterations: 2800 of 10000  (503.705 iter/sec)
+Iterations: 3100 of 10000  (595.806 iter/sec)
+Iterations: 3000 of 10000  (454.816 iter/sec)
+Iterations: 3200 of 10000  (497.149 iter/sec)
+Iterations: 3200 of 10000  (477.108 iter/sec)
+Iterations: 3000 of 10000  (485.46 iter/sec)
+Iterations: 3000 of 10000  (448.974 iter/sec)
+Iterations: 3100 of 10000  (624.493 iter/sec)
+Iterations: 3100 of 10000  (654.382 iter/sec)
+Iterations: 3100 of 10000  (544.099 iter/sec)
+Iterations: 2900 of 10000  (627.479 iter/sec)
+Iterations: 3300 of 10000  (629.113 iter/sec)
+Iterations: 3300 of 10000  (609.243 iter/sec)
+Iterations: 3200 of 10000  (529.319 iter/sec)
+Iterations: 3000 of 10000  (515.881 iter/sec)
+Iterations: 2900 of 10000  (621.388 iter/sec)
+Iterations: 3200 of 10000  (508.51 iter/sec)
+Iterations: 3100 of 10000  (527.145 iter/sec)
+Iterations: 3200 of 10000  (501.723 iter/sec)
+Iterations: 3300 of 10000  (550.085 iter/sec)
+Iterations: 3300 of 10000  (548.884 iter/sec)
+Iterations: 3100 of 10000  (558.709 iter/sec)
+Iterations: 3400 of 10000  (657.635 iter/sec)
+Iterations: 3100 of 10000  (531.932 iter/sec)
+Iterations: 3200 of 10000  (550.8 iter/sec)
+Iterations: 3200 of 10000  (524.513 iter/sec)
+Iterations: 3000 of 10000  (537.822 iter/sec)
+Iterations: 3300 of 10000  (679.325 iter/sec)
+Iterations: 3400 of 10000  (633.34 iter/sec)
+Iterations: 3200 of 10000  (463.732 iter/sec)
+Iterations: 3100 of 10000  (615.631 iter/sec)
+Iterations: 3300 of 10000  (602.101 iter/sec)
+Iterations: 3000 of 10000  (501.012 iter/sec)
+Iterations: 3400 of 10000  (610.616 iter/sec)
+Iterations: 3300 of 10000  (564.407 iter/sec)
+Iterations: 3400 of 10000  (569.23 iter/sec)
+Iterations: 3200 of 10000  (492.48 iter/sec)
+Iterations: 3300 of 10000  (622.96 iter/sec)
+Iterations: 3200 of 10000  (497.02 iter/sec)
+Iterations: 3400 of 10000  (675.142 iter/sec)
+Iterations: 3300 of 10000  (594.223 iter/sec)
+Iterations: 3100 of 10000  (602.268 iter/sec)
+Iterations: 3500 of 10000  (509.173 iter/sec)
+Iterations: 3300 of 10000  (591.244 iter/sec)
+Iterations: 3200 of 10000  (436.209 iter/sec)
+Iterations: 3500 of 10000  (538.962 iter/sec)
+Iterations: 3400 of 10000  (621.114 iter/sec)
+Iterations: 3200 of 10000  (535.725 iter/sec)
+Iterations: 3100 of 10000  (625.274 iter/sec)
+Iterations: 3400 of 10000  (565.636 iter/sec)
+Iterations: 3500 of 10000  (530.057 iter/sec)
+Iterations: 3300 of 10000  (644.056 iter/sec)
+Iterations: 3300 of 10000  (578.828 iter/sec)
+Iterations: 3400 of 10000  (613.493 iter/sec)
+Iterations: 3400 of 10000  (624.481 iter/sec)
+Iterations: 3500 of 10000  (493.647 iter/sec)
+Iterations: 3600 of 10000  (588.27 iter/sec)
+Iterations: 3500 of 10000  (527.596 iter/sec)
+Iterations: 3400 of 10000  (581.954 iter/sec)
+Iterations: 3600 of 10000  (606.351 iter/sec)
+Iterations: 3200 of 10000  (484.762 iter/sec)
+Iterations: 3300 of 10000  (532.325 iter/sec)
+Iterations: 3300 of 10000  (568.589 iter/sec)
+Iterations: 3500 of 10000  (530.543 iter/sec)
+Iterations: 3200 of 10000  (538.126 iter/sec)
+Iterations: 3600 of 10000  (654.536 iter/sec)
+Iterations: 3400 of 10000  (581.155 iter/sec)
+Iterations: 3400 of 10000  (556.48 iter/sec)
+Iterations: 3600 of 10000  (580.339 iter/sec)
+Iterations: 3500 of 10000  (528.79 iter/sec)
+Iterations: 3500 of 10000  (538.21 iter/sec)
+Iterations: 3600 of 10000  (618.41 iter/sec)
+Iterations: 3500 of 10000  (458.024 iter/sec)
+Iterations: 3700 of 10000  (482.998 iter/sec)
+Iterations: 3400 of 10000  (641.248 iter/sec)
+Iterations: 3300 of 10000  (537.553 iter/sec)
+Iterations: 3500 of 10000  (485.772 iter/sec)
+Iterations: 3700 of 10000  (492.133 iter/sec)
+Iterations: 3600 of 10000  (598.05 iter/sec)
+Iterations: 3400 of 10000  (542.367 iter/sec)
+Iterations: 3300 of 10000  (664.222 iter/sec)
+Iterations: 3700 of 10000  (545.586 iter/sec)
+Iterations: 3600 of 10000  (646.977 iter/sec)
+Iterations: 3600 of 10000  (585.672 iter/sec)
+Iterations: 3700 of 10000  (583.526 iter/sec)
+Iterations: 3500 of 10000  (489.915 iter/sec)
+Iterations: 3500 of 10000  (507.527 iter/sec)
+Iterations: 3700 of 10000  (487.204 iter/sec)
+Iterations: 3600 of 10000  (476.744 iter/sec)
+Iterations: 3500 of 10000  (532.093 iter/sec)
+Iterations: 3400 of 10000  (674.091 iter/sec)
+Iterations: 3600 of 10000  (583.349 iter/sec)
+Iterations: 3800 of 10000  (508.161 iter/sec)
+Iterations: 3800 of 10000  (585.042 iter/sec)
+Iterations: 3400 of 10000  (519.197 iter/sec)
+Iterations: 3700 of 10000  (502.922 iter/sec)
+Iterations: 3500 of 10000  (509.248 iter/sec)
+Iterations: 3800 of 10000  (619.629 iter/sec)
+Iterations: 3800 of 10000  (631.772 iter/sec)
+Iterations: 3700 of 10000  (526.762 iter/sec)
+Iterations: 3600 of 10000  (573.895 iter/sec)
+Iterations: 3600 of 10000  (553.921 iter/sec)
+Iterations: 3700 of 10000  (506.088 iter/sec)
+Iterations: 3800 of 10000  (575.159 iter/sec)
+Iterations: 3600 of 10000  (572.587 iter/sec)
+Iterations: 3500 of 10000  (550.443 iter/sec)
+Iterations: 3700 of 10000  (550.143 iter/sec)
+Iterations: 3900 of 10000  (551.478 iter/sec)
+Iterations: 3600 of 10000  (614.137 iter/sec)
+Iterations: 3700 of 10000  (453.453 iter/sec)
+Iterations: 3800 of 10000  (602.58 iter/sec)
+Iterations: 3900 of 10000  (452.122 iter/sec)
+Iterations: 3500 of 10000  (448.051 iter/sec)
+Iterations: 3900 of 10000  (544.084 iter/sec)
+Iterations: 3800 of 10000  (591.551 iter/sec)
+Iterations: 3800 of 10000  (632.403 iter/sec)
+Iterations: 3900 of 10000  (512.744 iter/sec)
+Iterations: 3700 of 10000  (513.205 iter/sec)
+Iterations: 3600 of 10000  (677.571 iter/sec)
+Iterations: 3700 of 10000  (482.49 iter/sec)
+Iterations: 4000 of 10000  (665.495 iter/sec)
+Iterations: 3800 of 10000  (643.439 iter/sec)
+Iterations: 3900 of 10000  (484.592 iter/sec)
+Iterations: 3700 of 10000  (499.226 iter/sec)
+Iterations: 3900 of 10000  (523.994 iter/sec)
+Iterations: 4000 of 10000  (640.41 iter/sec)
+Iterations: 3800 of 10000  (516.953 iter/sec)
+Iterations: 3700 of 10000  (511.912 iter/sec)
+Iterations: 4000 of 10000  (537.753 iter/sec)
+Iterations: 3600 of 10000  (520.969 iter/sec)
+Iterations: 3900 of 10000  (552.685 iter/sec)
+Iterations: 4000 of 10000  (565.218 iter/sec)
+Iterations: 3800 of 10000  (629.315 iter/sec)
+Iterations: 3900 of 10000  (477.701 iter/sec)
+Iterations: 4100 of 10000  (598.731 iter/sec)
+Iterations: 3800 of 10000  (553.937 iter/sec)
+Iterations: 3700 of 10000  (506.501 iter/sec)
+Iterations: 4000 of 10000  (564.573 iter/sec)
+Iterations: 3900 of 10000  (519.624 iter/sec)
+Iterations: 3800 of 10000  (573.444 iter/sec)
+Iterations: 4000 of 10000  (647.375 iter/sec)
+Iterations: 4100 of 10000  (604.756 iter/sec)
+Iterations: 3800 of 10000  (582.835 iter/sec)
+Iterations: 4100 of 10000  (541.328 iter/sec)
+Iterations: 3900 of 10000  (484.888 iter/sec)
+Iterations: 4000 of 10000  (598.204 iter/sec)
+Iterations: 3700 of 10000  (452.452 iter/sec)
+Iterations: 4100 of 10000  (554.954 iter/sec)
+Iterations: 4000 of 10000  (605.389 iter/sec)
+Iterations: 3900 of 10000  (534.991 iter/sec)
+Iterations: 4100 of 10000  (575.175 iter/sec)
+Iterations: 3800 of 10000  (572.109 iter/sec)
+Iterations: 4200 of 10000  (503.933 iter/sec)
+Iterations: 4000 of 10000  (567.53 iter/sec)
+Iterations: 3900 of 10000  (503.918 iter/sec)
+Iterations: 4100 of 10000  (571.275 iter/sec)
+Iterations: 3900 of 10000  (507.395 iter/sec)
+Iterations: 4200 of 10000  (526.635 iter/sec)
+Iterations: 4000 of 10000  (570.386 iter/sec)
+Iterations: 3900 of 10000  (479.681 iter/sec)
+Iterations: 4200 of 10000  (496.061 iter/sec)
+Iterations: 4100 of 10000  (564.283 iter/sec)
+Iterations: 4100 of 10000  (619.318 iter/sec)
+Iterations: 4000 of 10000  (610.765 iter/sec)
+Iterations: 3800 of 10000  (529.577 iter/sec)
+Iterations: 4200 of 10000  (469.177 iter/sec)
+Iterations: 4300 of 10000  (585.35 iter/sec)
+Iterations: 4100 of 10000  (567.679 iter/sec)
+Iterations: 4000 of 10000  (554.029 iter/sec)
+Iterations: 4200 of 10000  (503.393 iter/sec)
+Iterations: 3900 of 10000  (496.84 iter/sec)
+Iterations: 4300 of 10000  (601.692 iter/sec)
+Iterations: 4200 of 10000  (507.658 iter/sec)
+Iterations: 4000 of 10000  (559.87 iter/sec)
+Iterations: 4000 of 10000  (575.328 iter/sec)
+Iterations: 4100 of 10000  (553.833 iter/sec)
+Iterations: 4300 of 10000  (592.049 iter/sec)
+Iterations: 4100 of 10000  (597.4 iter/sec)
+Iterations: 4200 of 10000  (544.894 iter/sec)
+Iterations: 3900 of 10000  (514.406 iter/sec)
+Iterations: 4200 of 10000  (453.465 iter/sec)
+Iterations: 4300 of 10000  (544.686 iter/sec)
+Iterations: 4100 of 10000  (581.186 iter/sec)
+Iterations: 4400 of 10000  (515.029 iter/sec)
+Iterations: 4300 of 10000  (567.772 iter/sec)
+Iterations: 4300 of 10000  (616.61 iter/sec)
+Iterations: 4000 of 10000  (538.042 iter/sec)
+Iterations: 4200 of 10000  (490.477 iter/sec)
+Iterations: 4400 of 10000  (556.808 iter/sec)
+Iterations: 4100 of 10000  (542.058 iter/sec)
+Iterations: 4100 of 10000  (639.166 iter/sec)
+Iterations: 4200 of 10000  (493.464 iter/sec)
+Iterations: 4400 of 10000  (501.877 iter/sec)
+Iterations: 4300 of 10000  (574.941 iter/sec)
+Iterations: 4000 of 10000  (659.661 iter/sec)
+Iterations: 4200 of 10000  (521.107 iter/sec)
+Iterations: 4300 of 10000  (522.898 iter/sec)
+Iterations: 4500 of 10000  (594.279 iter/sec)
+Iterations: 4500 of 10000  (647.958 iter/sec)
+Iterations: 4200 of 10000  (514.864 iter/sec)
+Iterations: 4100 of 10000  (569.139 iter/sec)
+Iterations: 4300 of 10000  (582.093 iter/sec)
+Iterations: 4400 of 10000  (471.427 iter/sec)
+Iterations: 4400 of 10000  (527.198 iter/sec)
+Iterations: 4400 of 10000  (494.746 iter/sec)
+Iterations: 4200 of 10000  (524.01 iter/sec)
+Iterations: 4200 of 10000  (462.419 iter/sec)
+Iterations: 4300 of 10000  (617.41 iter/sec)
+Iterations: 4500 of 10000  (570.395 iter/sec)
+Iterations: 4100 of 10000  (612.959 iter/sec)
+Iterations: 4300 of 10000  (605.583 iter/sec)
+Iterations: 4400 of 10000  (524.142 iter/sec)
+Iterations: 4600 of 10000  (516.236 iter/sec)
+Iterations: 4300 of 10000  (576.921 iter/sec)
+Iterations: 4400 of 10000  (485.873 iter/sec)
+Iterations: 4500 of 10000  (564.124 iter/sec)
+Iterations: 4500 of 10000  (569.515 iter/sec)
+Iterations: 4500 of 10000  (566.056 iter/sec)
+Iterations: 4600 of 10000  (494.736 iter/sec)
+Iterations: 4300 of 10000  (633.585 iter/sec)
+Iterations: 4400 of 10000  (503.218 iter/sec)
+Iterations: 4200 of 10000  (480.538 iter/sec)
+Iterations: 4400 of 10000  (545.956 iter/sec)
+Iterations: 4300 of 10000  (517.507 iter/sec)
+Iterations: 4500 of 10000  (611.374 iter/sec)
+Iterations: 4200 of 10000  (516.412 iter/sec)
+Iterations: 4600 of 10000  (487.028 iter/sec)
+Iterations: 4400 of 10000  (498.885 iter/sec)
+Iterations: 4700 of 10000  (597.861 iter/sec)
+Iterations: 4500 of 10000  (578.001 iter/sec)
+Iterations: 4400 of 10000  (494.017 iter/sec)
+Iterations: 4600 of 10000  (508.74 iter/sec)
+Iterations: 4700 of 10000  (545.977 iter/sec)
+Iterations: 4400 of 10000  (554.216 iter/sec)
+Iterations: 4500 of 10000  (563.361 iter/sec)
+Iterations: 4600 of 10000  (507.537 iter/sec)
+Iterations: 4300 of 10000  (554.908 iter/sec)
+Iterations: 4600 of 10000  (480.762 iter/sec)
+Iterations: 4500 of 10000  (631.908 iter/sec)
+Iterations: 4300 of 10000  (575.858 iter/sec)
+Iterations: 4500 of 10000  (615.449 iter/sec)
+Iterations: 4600 of 10000  (525.547 iter/sec)
+Iterations: 4400 of 10000  (474.082 iter/sec)
+Iterations: 4700 of 10000  (554.924 iter/sec)
+Iterations: 4800 of 10000  (597.215 iter/sec)
+Iterations: 4600 of 10000  (516.105 iter/sec)
+Iterations: 4500 of 10000  (602.958 iter/sec)
+Iterations: 4500 of 10000  (615.525 iter/sec)
+Iterations: 4700 of 10000  (644.01 iter/sec)
+Iterations: 4700 of 10000  (591.621 iter/sec)
+Iterations: 4800 of 10000  (522.152 iter/sec)
+Iterations: 4600 of 10000  (498.398 iter/sec)
+Iterations: 4700 of 10000  (526.834 iter/sec)
+Iterations: 4400 of 10000  (497.3 iter/sec)
+Iterations: 4600 of 10000  (531.564 iter/sec)
+Iterations: 4700 of 10000  (630.374 iter/sec)
+Iterations: 4500 of 10000  (561.984 iter/sec)
+Iterations: 4800 of 10000  (559.588 iter/sec)
+Iterations: 4600 of 10000  (499.675 iter/sec)
+Iterations: 4400 of 10000  (494.831 iter/sec)
+Iterations: 4800 of 10000  (629.295 iter/sec)
+Iterations: 4700 of 10000  (610.091 iter/sec)
+Iterations: 4800 of 10000  (611.325 iter/sec)
+Iterations: 4600 of 10000  (561.35 iter/sec)
+Iterations: 4900 of 10000  (466.677 iter/sec)
+Iterations: 4600 of 10000  (518.933 iter/sec)
+Iterations: 4700 of 10000  (587.896 iter/sec)
+Iterations: 4700 of 10000  (586.352 iter/sec)
+Iterations: 4500 of 10000  (559.71 iter/sec)
+Iterations: 4800 of 10000  (541.278 iter/sec)
+Iterations: 4800 of 10000  (630.477 iter/sec)
+Iterations: 4900 of 10000  (473.243 iter/sec)
+Iterations: 4500 of 10000  (574.257 iter/sec)
+Iterations: 4600 of 10000  (517.411 iter/sec)
+Iterations: 4700 of 10000  (531.474 iter/sec)
+Iterations: 4900 of 10000  (498.378 iter/sec)
+Iterations: 4800 of 10000  (598.767 iter/sec)
+Iterations: 4900 of 10000  (561.899 iter/sec)
+Iterations: 4700 of 10000  (624.653 iter/sec)
+Iterations: 4900 of 10000  (549.182 iter/sec)
+Iterations: 4700 of 10000  (592.126 iter/sec)
+Iterations: 5000 of 10000  (535.756 iter/sec)
+Iterations: 4800 of 10000  (597.546 iter/sec)
+Iterations: 4800 of 10000  (614.5 iter/sec)
+Iterations: 5000 of 10000  (563.279 iter/sec)
+Iterations: 4900 of 10000  (514.099 iter/sec)
+Iterations: 4600 of 10000  (489.997 iter/sec)
+Iterations: 4900 of 10000  (467.124 iter/sec)
+Iterations: 4700 of 10000  (606.41 iter/sec)
+Iterations: 5000 of 10000  (595.302 iter/sec)
+Iterations: 4800 of 10000  (569.986 iter/sec)
+Iterations: 4600 of 10000  (527.964 iter/sec)
+Iterations: 4800 of 10000  (678.334 iter/sec)
+Iterations: 5000 of 10000  (619.111 iter/sec)
+Iterations: 4800 of 10000  (640.123 iter/sec)
+Iterations: 5000 of 10000  (592.259 iter/sec)
+Iterations: 4900 of 10000  (501.424 iter/sec)
+Iterations: 4900 of 10000  (544.481 iter/sec)
+Iterations: 5100 of 10000  (486.53 iter/sec)
+Iterations: 4900 of 10000  (537.967 iter/sec)
+Iterations: 5000 of 10000  (619.79 iter/sec)
+Iterations: 4700 of 10000  (572.528 iter/sec)
+Iterations: 5100 of 10000  (482.011 iter/sec)
+Iterations: 4800 of 10000  (610.445 iter/sec)
+Iterations: 5000 of 10000  (558.129 iter/sec)
+Iterations: 4700 of 10000  (610.322 iter/sec)
+Iterations: 5100 of 10000  (508.704 iter/sec)
+Iterations: 4900 of 10000  (527.576 iter/sec)
+Iterations: 4900 of 10000  (476.999 iter/sec)
+Iterations: 5100 of 10000  (514.552 iter/sec)
+Iterations: 5000 of 10000  (594.029 iter/sec)
+Iterations: 4900 of 10000  (553.422 iter/sec)
+Iterations: 5100 of 10000  (495.899 iter/sec)
+Iterations: 5000 of 10000  (593.912 iter/sec)
+Iterations: 5200 of 10000  (615.862 iter/sec)
+Iterations: 5000 of 10000  (538.091 iter/sec)
+Iterations: 4800 of 10000  (653.266 iter/sec)
+Iterations: 5100 of 10000  (538.465 iter/sec)
+Iterations: 4800 of 10000  (595.955 iter/sec)
+Iterations: 5200 of 10000  (520.494 iter/sec)
+Iterations: 5200 of 10000  (650.474 iter/sec)
+Iterations: 4900 of 10000  (503.854 iter/sec)
+Iterations: 5100 of 10000  (488.689 iter/sec)
+Iterations: 5000 of 10000  (564.124 iter/sec)
+Iterations: 5000 of 10000  (638.863 iter/sec)
+Iterations: 5000 of 10000  (559.453 iter/sec)
+Iterations: 5200 of 10000  (578.523 iter/sec)
+Iterations: 5100 of 10000  (527.991 iter/sec)
+Iterations: 5200 of 10000  (583.897 iter/sec)
+Iterations: 5300 of 10000  (621.547 iter/sec)
+Iterations: 5100 of 10000  (512.581 iter/sec)
+Iterations: 4900 of 10000  (552.871 iter/sec)
+Iterations: 5200 of 10000  (565.425 iter/sec)
+Iterations: 5100 of 10000  (493.479 iter/sec)
+Iterations: 5300 of 10000  (629.802 iter/sec)
+Iterations: 5000 of 10000  (619.851 iter/sec)
+Iterations: 5300 of 10000  (549.632 iter/sec)
+Iterations: 4900 of 10000  (509.84 iter/sec)
+Iterations: 5200 of 10000  (539.96 iter/sec)
+Iterations: 5300 of 10000  (577.017 iter/sec)
+Iterations: 5100 of 10000  (508.006 iter/sec)
+Iterations: 5100 of 10000  (480.169 iter/sec)
+Iterations: 5200 of 10000  (569.616 iter/sec)
+Iterations: 5100 of 10000  (502.074 iter/sec)
+Iterations: 5300 of 10000  (578.132 iter/sec)
+Iterations: 5200 of 10000  (614.488 iter/sec)
+Iterations: 5400 of 10000  (510.631 iter/sec)
+Iterations: 5000 of 10000  (596.584 iter/sec)
+Iterations: 5300 of 10000  (574.251 iter/sec)
+Iterations: 5200 of 10000  (586.087 iter/sec)
+Iterations: 5000 of 10000  (591.663 iter/sec)
+Iterations: 5400 of 10000  (519.561 iter/sec)
+Iterations: 5100 of 10000  (523.193 iter/sec)
+Iterations: 5200 of 10000  (684.004 iter/sec)
+Iterations: 5400 of 10000  (486.613 iter/sec)
+Iterations: 5300 of 10000  (514.086 iter/sec)
+Iterations: 5300 of 10000  (641.993 iter/sec)
+Iterations: 5200 of 10000  (573.5 iter/sec)
+Iterations: 5400 of 10000  (503.033 iter/sec)
+Iterations: 5300 of 10000  (630.013 iter/sec)
+Iterations: 5200 of 10000  (541.085 iter/sec)
+Iterations: 5400 of 10000  (517.572 iter/sec)
+Iterations: 5500 of 10000  (548.935 iter/sec)
+Iterations: 5100 of 10000  (517.706 iter/sec)
+Iterations: 5300 of 10000  (576.515 iter/sec)
+Iterations: 5400 of 10000  (502.53 iter/sec)
+Iterations: 5500 of 10000  (589.824 iter/sec)
+Iterations: 5300 of 10000  (667.294 iter/sec)
+Iterations: 5200 of 10000  (583.645 iter/sec)
+Iterations: 5100 of 10000  (492.141 iter/sec)
+Iterations: 5500 of 10000  (539.887 iter/sec)
+Iterations: 5400 of 10000  (567.779 iter/sec)
+Iterations: 5300 of 10000  (607.526 iter/sec)
+Iterations: 5500 of 10000  (592.916 iter/sec)
+Iterations: 5300 of 10000  (576.143 iter/sec)
+Iterations: 5500 of 10000  (583.928 iter/sec)
+Iterations: 5400 of 10000  (533.843 iter/sec)
+Iterations: 5400 of 10000  (444.484 iter/sec)
+Iterations: 5200 of 10000  (634.985 iter/sec)
+Iterations: 5600 of 10000  (502.705 iter/sec)
+Iterations: 5500 of 10000  (572.128 iter/sec)
+Iterations: 5300 of 10000  (591.593 iter/sec)
+Iterations: 5400 of 10000  (461.284 iter/sec)
+Iterations: 5400 of 10000  (537.507 iter/sec)
+Iterations: 5600 of 10000  (474.518 iter/sec)
+Iterations: 5500 of 10000  (601.03 iter/sec)
+Iterations: 5200 of 10000  (542.865 iter/sec)
+Iterations: 5600 of 10000  (506.017 iter/sec)
+Iterations: 5400 of 10000  (531.338 iter/sec)
+Iterations: 5500 of 10000  (627.553 iter/sec)
+Iterations: 5600 of 10000  (511.865 iter/sec)
+Iterations: 5300 of 10000  (624.15 iter/sec)
+Iterations: 5600 of 10000  (504.877 iter/sec)
+Iterations: 5400 of 10000  (482.854 iter/sec)
+Iterations: 5500 of 10000  (516.073 iter/sec)
+Iterations: 5700 of 10000  (582.669 iter/sec)
+Iterations: 5500 of 10000  (637.401 iter/sec)
+Iterations: 5600 of 10000  (472.708 iter/sec)
+Iterations: 5700 of 10000  (589.626 iter/sec)
+Iterations: 5500 of 10000  (489.443 iter/sec)
+Iterations: 5400 of 10000  (474.485 iter/sec)
+Iterations: 5300 of 10000  (546.603 iter/sec)
+Iterations: 5700 of 10000  (628.192 iter/sec)
+Iterations: 5500 of 10000  (610.434 iter/sec)
+Iterations: 5600 of 10000  (514.766 iter/sec)
+Iterations: 5700 of 10000  (586.105 iter/sec)
+Iterations: 5600 of 10000  (511.208 iter/sec)
+Iterations: 5700 of 10000  (596.652 iter/sec)
+Iterations: 5400 of 10000  (509.778 iter/sec)
+Iterations: 5500 of 10000  (511.01 iter/sec)
+Iterations: 5800 of 10000  (501.148 iter/sec)
+Iterations: 5600 of 10000  (470.528 iter/sec)
+Iterations: 5600 of 10000  (493.206 iter/sec)
+Iterations: 5700 of 10000  (547.648 iter/sec)
+Iterations: 5800 of 10000  (542.597 iter/sec)
+Iterations: 5500 of 10000  (539.834 iter/sec)
+Iterations: 5700 of 10000  (579.337 iter/sec)
+Iterations: 5400 of 10000  (533.735 iter/sec)
+Iterations: 5800 of 10000  (510.532 iter/sec)
+Iterations: 5700 of 10000  (636.339 iter/sec)
+Iterations: 5600 of 10000  (515.055 iter/sec)
+Iterations: 5600 of 10000  (450.964 iter/sec)
+Iterations: 5800 of 10000  (514.017 iter/sec)
+Iterations: 5500 of 10000  (592.933 iter/sec)
+Iterations: 5800 of 10000  (513.962 iter/sec)
+Iterations: 5900 of 10000  (576.146 iter/sec)
+Iterations: 5700 of 10000  (549.961 iter/sec)
+Iterations: 5600 of 10000  (450.44 iter/sec)
+Iterations: 5700 of 10000  (539.831 iter/sec)
+Iterations: 5900 of 10000  (557.796 iter/sec)
+Iterations: 5500 of 10000  (631.848 iter/sec)
+Iterations: 5800 of 10000  (473.976 iter/sec)
+Iterations: 5900 of 10000  (562.142 iter/sec)
+Iterations: 5800 of 10000  (565.524 iter/sec)
+Iterations: 5600 of 10000  (475.955 iter/sec)
+Iterations: 5900 of 10000  (637.125 iter/sec)
+Iterations: 5800 of 10000  (507.645 iter/sec)
+Iterations: 5700 of 10000  (547.735 iter/sec)
+Iterations: 5700 of 10000  (539.54 iter/sec)
+Iterations: 5900 of 10000  (591.565 iter/sec)
+Iterations: 5600 of 10000  (524.486 iter/sec)
+Iterations: 6000 of 10000  (572.22 iter/sec)
+Iterations: 5700 of 10000  (598.749 iter/sec)
+Iterations: 5800 of 10000  (477.136 iter/sec)
+Iterations: 6000 of 10000  (566.309 iter/sec)
+Iterations: 5900 of 10000  (629.608 iter/sec)
+Iterations: 5900 of 10000  (578.821 iter/sec)
+Iterations: 5800 of 10000  (489.033 iter/sec)
+Iterations: 6000 of 10000  (598.86 iter/sec)
+Iterations: 6000 of 10000  (581.375 iter/sec)
+Iterations: 5600 of 10000  (474.656 iter/sec)
+Iterations: 5900 of 10000  (537.669 iter/sec)
+Iterations: 5700 of 10000  (524.805 iter/sec)
+Iterations: 5800 of 10000  (513.682 iter/sec)
+Iterations: 6000 of 10000  (588.488 iter/sec)
+Iterations: 5700 of 10000  (573.043 iter/sec)
+Iterations: 5800 of 10000  (450.392 iter/sec)
+Iterations: 6100 of 10000  (507.313 iter/sec)
+Iterations: 5800 of 10000  (544.046 iter/sec)
+Iterations: 5900 of 10000  (550.779 iter/sec)
+Iterations: 6000 of 10000  (572.879 iter/sec)
+Iterations: 6100 of 10000  (518.885 iter/sec)
+Iterations: 6000 of 10000  (565.039 iter/sec)
+Iterations: 5900 of 10000  (545.164 iter/sec)
+Iterations: 6100 of 10000  (509.152 iter/sec)
+Iterations: 6100 of 10000  (505.086 iter/sec)
+Iterations: 6000 of 10000  (556.824 iter/sec)
+Iterations: 5700 of 10000  (501.965 iter/sec)
+Iterations: 5900 of 10000  (553.63 iter/sec)
+Iterations: 6100 of 10000  (524.301 iter/sec)
+Iterations: 5800 of 10000  (461.314 iter/sec)
+Iterations: 5900 of 10000  (531.861 iter/sec)
+Iterations: 5800 of 10000  (502.356 iter/sec)
+Iterations: 6200 of 10000  (606.682 iter/sec)
+Iterations: 5900 of 10000  (614.322 iter/sec)
+Iterations: 6000 of 10000  (585.82 iter/sec)
+Iterations: 6200 of 10000  (610.489 iter/sec)
+Iterations: 6000 of 10000  (559.065 iter/sec)
+Iterations: 6100 of 10000  (513.798 iter/sec)
+Iterations: 6200 of 10000  (606.031 iter/sec)
+Iterations: 6100 of 10000  (483.72 iter/sec)
+Iterations: 6200 of 10000  (537.747 iter/sec)
+Iterations: 6200 of 10000  (603.854 iter/sec)
+Iterations: 6000 of 10000  (545.366 iter/sec)
+Iterations: 6100 of 10000  (480.234 iter/sec)
+Iterations: 5800 of 10000  (481.461 iter/sec)
+Iterations: 6000 of 10000  (562.544 iter/sec)
+Iterations: 5900 of 10000  (527.952 iter/sec)
+Iterations: 5900 of 10000  (547.873 iter/sec)
+Iterations: 6000 of 10000  (578.811 iter/sec)
+Iterations: 6300 of 10000  (523.341 iter/sec)
+Iterations: 6100 of 10000  (478.247 iter/sec)
+Iterations: 6300 of 10000  (525.887 iter/sec)
+Iterations: 6200 of 10000  (574.825 iter/sec)
+Iterations: 6100 of 10000  (520.988 iter/sec)
+Iterations: 6200 of 10000  (575.218 iter/sec)
+Iterations: 6300 of 10000  (506.009 iter/sec)
+Iterations: 5900 of 10000  (594.831 iter/sec)
+Iterations: 6200 of 10000  (562.3 iter/sec)
+Iterations: 6300 of 10000  (476.963 iter/sec)
+Iterations: 6300 of 10000  (494.332 iter/sec)
+Iterations: 6100 of 10000  (503.165 iter/sec)
+Iterations: 6400 of 10000  (612.978 iter/sec)
+Iterations: 6000 of 10000  (570.138 iter/sec)
+Iterations: 6000 of 10000  (529.681 iter/sec)
+Iterations: 6100 of 10000  (499.448 iter/sec)
+Iterations: 6100 of 10000  (528.248 iter/sec)
+Iterations: 6400 of 10000  (611.868 iter/sec)
+Iterations: 6200 of 10000  (530.611 iter/sec)
+Iterations: 6200 of 10000  (624.029 iter/sec)
+Iterations: 6300 of 10000  (525.527 iter/sec)
+Iterations: 6400 of 10000  (552.541 iter/sec)
+Iterations: 6300 of 10000  (477.893 iter/sec)
+Iterations: 6000 of 10000  (579.727 iter/sec)
+Iterations: 6400 of 10000  (587.061 iter/sec)
+Iterations: 6400 of 10000  (560.529 iter/sec)
+Iterations: 6200 of 10000  (540.514 iter/sec)
+Iterations: 6300 of 10000  (495.525 iter/sec)
+Iterations: 6200 of 10000  (592.666 iter/sec)
+Iterations: 6200 of 10000  (596.214 iter/sec)
+Iterations: 6500 of 10000  (531.61 iter/sec)
+Iterations: 6100 of 10000  (518.581 iter/sec)
+Iterations: 6100 of 10000  (456.581 iter/sec)
+Iterations: 6500 of 10000  (511.883 iter/sec)
+Iterations: 6400 of 10000  (631.202 iter/sec)
+Iterations: 6300 of 10000  (545.813 iter/sec)
+Iterations: 6300 of 10000  (466.668 iter/sec)
+Iterations: 6500 of 10000  (507.457 iter/sec)
+Iterations: 6400 of 10000  (546.846 iter/sec)
+Iterations: 6400 of 10000  (618.663 iter/sec)
+Iterations: 6600 of 10000  (631.477 iter/sec)
+Iterations: 6100 of 10000  (473.904 iter/sec)
+Iterations: 6500 of 10000  (482.274 iter/sec)
+Iterations: 6500 of 10000  (503.575 iter/sec)
+Iterations: 6300 of 10000  (536.895 iter/sec)
+Iterations: 6200 of 10000  (554.471 iter/sec)
+Iterations: 6300 of 10000  (484.093 iter/sec)
+Iterations: 6300 of 10000  (507.115 iter/sec)
+Iterations: 6200 of 10000  (546.884 iter/sec)
+Iterations: 6600 of 10000  (579.589 iter/sec)
+Iterations: 6400 of 10000  (599.851 iter/sec)
+Iterations: 6500 of 10000  (543.127 iter/sec)
+Iterations: 6400 of 10000  (522.521 iter/sec)
+Iterations: 6600 of 10000  (524.532 iter/sec)
+Iterations: 6700 of 10000  (592.484 iter/sec)
+Iterations: 6500 of 10000  (538.372 iter/sec)
+Iterations: 6200 of 10000  (586.146 iter/sec)
+Iterations: 6600 of 10000  (599.887 iter/sec)
+Iterations: 6500 of 10000  (486.027 iter/sec)
+Iterations: 6600 of 10000  (556.461 iter/sec)
+Iterations: 6400 of 10000  (601.775 iter/sec)
+Iterations: 6400 of 10000  (590.04 iter/sec)
+Iterations: 6400 of 10000  (578.396 iter/sec)
+Iterations: 6300 of 10000  (480.015 iter/sec)
+Iterations: 6700 of 10000  (624.859 iter/sec)
+Iterations: 6300 of 10000  (489.507 iter/sec)
+Iterations: 6600 of 10000  (571.644 iter/sec)
+Iterations: 6500 of 10000  (510.423 iter/sec)
+Iterations: 6500 of 10000  (508.903 iter/sec)
+Iterations: 6600 of 10000  (622.7 iter/sec)
+Iterations: 6700 of 10000  (542.288 iter/sec)
+Iterations: 6700 of 10000  (578.145 iter/sec)
+Iterations: 6700 of 10000  (609.548 iter/sec)
+Iterations: 6600 of 10000  (585.909 iter/sec)
+Iterations: 6800 of 10000  (524.747 iter/sec)
+Iterations: 6300 of 10000  (505.227 iter/sec)
+Iterations: 6500 of 10000  (499.673 iter/sec)
+Iterations: 6500 of 10000  (491.792 iter/sec)
+Iterations: 6500 of 10000  (484.762 iter/sec)
+Iterations: 6400 of 10000  (557.258 iter/sec)
+Iterations: 6800 of 10000  (526.432 iter/sec)
+Iterations: 6400 of 10000  (549.786 iter/sec)
+Iterations: 6700 of 10000  (567.373 iter/sec)
+Iterations: 6600 of 10000  (566.688 iter/sec)
+Iterations: 6600 of 10000  (593.958 iter/sec)
+Iterations: 6700 of 10000  (580.097 iter/sec)
+Iterations: 6700 of 10000  (576.904 iter/sec)
+Iterations: 6900 of 10000  (560.293 iter/sec)
+Iterations: 6400 of 10000  (574.043 iter/sec)
+Iterations: 6800 of 10000  (488.883 iter/sec)
+Iterations: 6800 of 10000  (478.055 iter/sec)
+Iterations: 6600 of 10000  (585.326 iter/sec)
+Iterations: 6800 of 10000  (462.935 iter/sec)
+Iterations: 6600 of 10000  (583.352 iter/sec)
+Iterations: 6600 of 10000  (573.974 iter/sec)
+Iterations: 6900 of 10000  (572.767 iter/sec)
+Iterations: 6500 of 10000  (478.62 iter/sec)
+Iterations: 6700 of 10000  (585.782 iter/sec)
+Iterations: 6500 of 10000  (490.998 iter/sec)
+Iterations: 6800 of 10000  (508.148 iter/sec)
+Iterations: 6700 of 10000  (610.024 iter/sec)
+Iterations: 6800 of 10000  (462.007 iter/sec)
+Iterations: 6700 of 10000  (590.138 iter/sec)
+Iterations: 6800 of 10000  (491.541 iter/sec)
+Iterations: 6900 of 10000  (548.017 iter/sec)
+Iterations: 6900 of 10000  (553.961 iter/sec)
+Iterations: 6700 of 10000  (613.67 iter/sec)
+Iterations: 7000 of 10000  (487.301 iter/sec)
+Iterations: 6700 of 10000  (595.582 iter/sec)
+Iterations: 6900 of 10000  (538.091 iter/sec)
+Iterations: 6500 of 10000  (484.419 iter/sec)
+Iterations: 6600 of 10000  (561.741 iter/sec)
+Iterations: 7000 of 10000  (509.391 iter/sec)
+Iterations: 6900 of 10000  (574.841 iter/sec)
+Iterations: 6800 of 10000  (522.622 iter/sec)
+Iterations: 6600 of 10000  (534.756 iter/sec)
+Iterations: 6800 of 10000  (523.541 iter/sec)
+Iterations: 6900 of 10000  (554.985 iter/sec)
+Iterations: 6900 of 10000  (508.877 iter/sec)
+Iterations: 6800 of 10000  (524.444 iter/sec)
+Iterations: 7100 of 10000  (548.739 iter/sec)
+Iterations: 6800 of 10000  (521.953 iter/sec)
+Iterations: 6600 of 10000  (542.502 iter/sec)
+Iterations: 7000 of 10000  (496.818 iter/sec)
+Iterations: 6800 of 10000  (498.863 iter/sec)
+Iterations: 7000 of 10000  (478.155 iter/sec)
+Iterations: 7000 of 10000  (497.072 iter/sec)
+Iterations: 6700 of 10000  (574.158 iter/sec)
+Iterations: 6900 of 10000  (647.01 iter/sec)
+Iterations: 7100 of 10000  (543.399 iter/sec)
+Iterations: 6700 of 10000  (524.458 iter/sec)
+Iterations: 6900 of 10000  (555.423 iter/sec)
+Iterations: 7000 of 10000  (469.539 iter/sec)
+Iterations: 6900 of 10000  (615.343 iter/sec)
+Iterations: 6900 of 10000  (615.995 iter/sec)
+Iterations: 7100 of 10000  (595.38 iter/sec)
+Iterations: 7000 of 10000  (500.495 iter/sec)
+Iterations: 6700 of 10000  (558.304 iter/sec)
+Iterations: 7200 of 10000  (509.837 iter/sec)
+Iterations: 7100 of 10000  (547.945 iter/sec)
+Iterations: 7000 of 10000  (451.036 iter/sec)
+Iterations: 6900 of 10000  (529.532 iter/sec)
+Iterations: 7100 of 10000  (523.201 iter/sec)
+Iterations: 7000 of 10000  (547.663 iter/sec)
+Iterations: 6800 of 10000  (503.477 iter/sec)
+Iterations: 7200 of 10000  (456.805 iter/sec)
+Iterations: 7100 of 10000  (529.594 iter/sec)
+Iterations: 6800 of 10000  (484.32 iter/sec)
+Iterations: 7000 of 10000  (454.067 iter/sec)
+Iterations: 7000 of 10000  (559.801 iter/sec)
+Iterations: 7300 of 10000  (637.788 iter/sec)
+Iterations: 7100 of 10000  (617.692 iter/sec)
+Iterations: 7000 of 10000  (537.432 iter/sec)
+Iterations: 6800 of 10000  (522.701 iter/sec)
+Iterations: 7200 of 10000  (511.268 iter/sec)
+Iterations: 7100 of 10000  (530.077 iter/sec)
+Iterations: 7200 of 10000  (505.883 iter/sec)
+Iterations: 7100 of 10000  (606.594 iter/sec)
+Iterations: 6900 of 10000  (559.591 iter/sec)
+Iterations: 7000 of 10000  (447.656 iter/sec)
+Iterations: 7200 of 10000  (471.087 iter/sec)
+Iterations: 6900 of 10000  (588.37 iter/sec)
+Iterations: 7300 of 10000  (514.673 iter/sec)
+Iterations: 7100 of 10000  (629.735 iter/sec)
+Iterations: 7100 of 10000  (666.196 iter/sec)
+Iterations: 7200 of 10000  (473.077 iter/sec)
+Iterations: 7400 of 10000  (611.363 iter/sec)
+Iterations: 7100 of 10000  (491.582 iter/sec)
+Iterations: 7200 of 10000  (510.582 iter/sec)
+Iterations: 6900 of 10000  (579.549 iter/sec)
+Iterations: 7300 of 10000  (570.304 iter/sec)
+Iterations: 7300 of 10000  (594.287 iter/sec)
+Iterations: 7200 of 10000  (484.536 iter/sec)
+Iterations: 7200 of 10000  (493.481 iter/sec)
+Iterations: 7300 of 10000  (537.253 iter/sec)
+Iterations: 7000 of 10000  (519.459 iter/sec)
+Iterations: 7100 of 10000  (491.765 iter/sec)
+Iterations: 7000 of 10000  (513.147 iter/sec)
+Iterations: 7400 of 10000  (528.913 iter/sec)
+Iterations: 7200 of 10000  (549.916 iter/sec)
+Iterations: 7300 of 10000  (577.487 iter/sec)
+Iterations: 7200 of 10000  (523.179 iter/sec)
+Iterations: 7500 of 10000  (532.379 iter/sec)
+Iterations: 7300 of 10000  (624.536 iter/sec)
+Iterations: 7400 of 10000  (593.539 iter/sec)
+Iterations: 7400 of 10000  (530.957 iter/sec)
+Iterations: 7200 of 10000  (454.804 iter/sec)
+Iterations: 7000 of 10000  (492.065 iter/sec)
+Iterations: 7100 of 10000  (598.555 iter/sec)
+Iterations: 7300 of 10000  (526.959 iter/sec)
+Iterations: 7400 of 10000  (530.977 iter/sec)
+Iterations: 7300 of 10000  (498.863 iter/sec)
+Iterations: 7200 of 10000  (505.433 iter/sec)
+Iterations: 7300 of 10000  (611.348 iter/sec)
+Iterations: 7100 of 10000  (575.579 iter/sec)
+Iterations: 7400 of 10000  (621.628 iter/sec)
+Iterations: 7300 of 10000  (578.188 iter/sec)
+Iterations: 7600 of 10000  (595.008 iter/sec)
+Iterations: 7400 of 10000  (599.909 iter/sec)
+Iterations: 7500 of 10000  (464.371 iter/sec)
+Iterations: 7100 of 10000  (579.646 iter/sec)
+Iterations: 7300 of 10000  (551.712 iter/sec)
+Iterations: 7500 of 10000  (491.029 iter/sec)
+Iterations: 7500 of 10000  (502.447 iter/sec)
+Iterations: 7400 of 10000  (557.893 iter/sec)
+Iterations: 7200 of 10000  (525.677 iter/sec)
+Iterations: 7400 of 10000  (514.364 iter/sec)
+Iterations: 7300 of 10000  (582.167 iter/sec)
+Iterations: 7400 of 10000  (555.423 iter/sec)
+Iterations: 7500 of 10000  (463.186 iter/sec)
+Iterations: 7200 of 10000  (530.608 iter/sec)
+Iterations: 7500 of 10000  (519.098 iter/sec)
+Iterations: 7400 of 10000  (544.022 iter/sec)
+Iterations: 7700 of 10000  (522.827 iter/sec)
+Iterations: 7500 of 10000  (517.746 iter/sec)
+Iterations: 7600 of 10000  (522.485 iter/sec)
+Iterations: 7400 of 10000  (583.809 iter/sec)
+Iterations: 7600 of 10000  (554.192 iter/sec)
+Iterations: 7600 of 10000  (581.311 iter/sec)
+Iterations: 7200 of 10000  (474.012 iter/sec)
+Iterations: 7300 of 10000  (589.755 iter/sec)
+Iterations: 7500 of 10000  (518.904 iter/sec)
+Iterations: 7400 of 10000  (586.194 iter/sec)
+Iterations: 7300 of 10000  (615.574 iter/sec)
+Iterations: 7500 of 10000  (488.525 iter/sec)
+Iterations: 7500 of 10000  (504.47 iter/sec)
+Iterations: 7600 of 10000  (545.405 iter/sec)
+Iterations: 7600 of 10000  (496.133 iter/sec)
+Iterations: 7800 of 10000  (610.199 iter/sec)
+Iterations: 7600 of 10000  (581.984 iter/sec)
+Iterations: 7500 of 10000  (479.327 iter/sec)
+Iterations: 7700 of 10000  (452.002 iter/sec)
+Iterations: 7500 of 10000  (491.944 iter/sec)
+Iterations: 7700 of 10000  (501.776 iter/sec)
+Iterations: 7700 of 10000  (513.513 iter/sec)
+Iterations: 7400 of 10000  (547.819 iter/sec)
+Iterations: 7300 of 10000  (529.277 iter/sec)
+Iterations: 7600 of 10000  (571.978 iter/sec)
+Iterations: 7400 of 10000  (617.826 iter/sec)
+Iterations: 7500 of 10000  (518.452 iter/sec)
+Iterations: 7600 of 10000  (553.345 iter/sec)
+Iterations: 7600 of 10000  (581.25 iter/sec)
+Iterations: 7900 of 10000  (528.438 iter/sec)
+Iterations: 7700 of 10000  (497.201 iter/sec)
+Iterations: 7700 of 10000  (478.595 iter/sec)
+Iterations: 7700 of 10000  (509.749 iter/sec)
+Iterations: 7600 of 10000  (501.525 iter/sec)
+Iterations: 7800 of 10000  (537.999 iter/sec)
+Iterations: 7600 of 10000  (552.957 iter/sec)
+Iterations: 7800 of 10000  (570.184 iter/sec)
+Iterations: 7800 of 10000  (554.896 iter/sec)
+Iterations: 7500 of 10000  (498.182 iter/sec)
+Iterations: 7400 of 10000  (505.894 iter/sec)
+Iterations: 7600 of 10000  (575.043 iter/sec)
+Iterations: 7700 of 10000  (490.316 iter/sec)
+Iterations: 7500 of 10000  (499.728 iter/sec)
+Iterations: 8000 of 10000  (626.096 iter/sec)
+Iterations: 7700 of 10000  (487.983 iter/sec)
+Iterations: 7700 of 10000  (473.216 iter/sec)
+Iterations: 7800 of 10000  (549.152 iter/sec)
+Iterations: 7800 of 10000  (563.368 iter/sec)
+Iterations: 7800 of 10000  (527.774 iter/sec)
+Iterations: 7700 of 10000  (455.019 iter/sec)
+Iterations: 7700 of 10000  (522.51 iter/sec)
+Iterations: 7900 of 10000  (480.517 iter/sec)
+Iterations: 7900 of 10000  (480.996 iter/sec)
+Iterations: 7900 of 10000  (490.942 iter/sec)
+Iterations: 7600 of 10000  (541.076 iter/sec)
+Iterations: 7800 of 10000  (558.793 iter/sec)
+Iterations: 8100 of 10000  (637.324 iter/sec)
+Iterations: 7500 of 10000  (484.163 iter/sec)
+Iterations: 7600 of 10000  (520.348 iter/sec)
+Iterations: 7700 of 10000  (453.206 iter/sec)
+Iterations: 7800 of 10000  (548.231 iter/sec)
+Iterations: 7800 of 10000  (507.836 iter/sec)
+Iterations: 7900 of 10000  (516.025 iter/sec)
+Iterations: 7900 of 10000  (485.918 iter/sec)
+Iterations: 7900 of 10000  (481.028 iter/sec)
+Iterations: 7800 of 10000  (604.398 iter/sec)
+Iterations: 7800 of 10000  (568.492 iter/sec)
+Iterations: 8000 of 10000  (553.406 iter/sec)
+Iterations: 8000 of 10000  (569.262 iter/sec)
+Iterations: 8000 of 10000  (560.507 iter/sec)
+Iterations: 7600 of 10000  (584.689 iter/sec)
+Iterations: 7700 of 10000  (499.386 iter/sec)
+Iterations: 8200 of 10000  (517.125 iter/sec)
+Iterations: 7900 of 10000  (478.119 iter/sec)
+Iterations: 7700 of 10000  (489.735 iter/sec)
+Iterations: 7800 of 10000  (515.066 iter/sec)
+Iterations: 7900 of 10000  (502.993 iter/sec)
+Iterations: 8000 of 10000  (562.335 iter/sec)
+Iterations: 8000 of 10000  (556.626 iter/sec)
+Iterations: 8000 of 10000  (593.796 iter/sec)
+Iterations: 7900 of 10000  (478.114 iter/sec)
+Iterations: 7900 of 10000  (510.022 iter/sec)
+Iterations: 8100 of 10000  (584.389 iter/sec)
+Iterations: 8100 of 10000  (589.043 iter/sec)
+Iterations: 8100 of 10000  (580.896 iter/sec)
+Iterations: 7900 of 10000  (506.447 iter/sec)
+Iterations: 7800 of 10000  (580.349 iter/sec)
+Iterations: 8000 of 10000  (568.398 iter/sec)
+Iterations: 8300 of 10000  (532.442 iter/sec)
+Iterations: 7700 of 10000  (476.495 iter/sec)
+Iterations: 7800 of 10000  (607.74 iter/sec)
+Iterations: 8100 of 10000  (589.504 iter/sec)
+Iterations: 8000 of 10000  (556.694 iter/sec)
+Iterations: 8100 of 10000  (608.21 iter/sec)
+Iterations: 8100 of 10000  (565.966 iter/sec)
+Iterations: 7900 of 10000  (454.531 iter/sec)
+Iterations: 8000 of 10000  (562.139 iter/sec)
+Iterations: 8000 of 10000  (593.208 iter/sec)
+Iterations: 8000 of 10000  (555.988 iter/sec)
+Iterations: 8200 of 10000  (511.42 iter/sec)
+Iterations: 8200 of 10000  (507.455 iter/sec)
+Iterations: 8200 of 10000  (490.026 iter/sec)
+Iterations: 8100 of 10000  (572.902 iter/sec)
+Iterations: 7800 of 10000  (574.69 iter/sec)
+Iterations: 7900 of 10000  (479.283 iter/sec)
+Iterations: 7900 of 10000  (532.32 iter/sec)
+Iterations: 8400 of 10000  (466.775 iter/sec)
+Iterations: 8200 of 10000  (539.695 iter/sec)
+Iterations: 8100 of 10000  (545.768 iter/sec)
+Iterations: 8200 of 10000  (536.058 iter/sec)
+Iterations: 8200 of 10000  (509.77 iter/sec)
+Iterations: 8000 of 10000  (527.86 iter/sec)
+Iterations: 8100 of 10000  (511.328 iter/sec)
+Iterations: 8100 of 10000  (570.727 iter/sec)
+Iterations: 8300 of 10000  (588.977 iter/sec)
+Iterations: 8100 of 10000  (550.658 iter/sec)
+Iterations: 8300 of 10000  (548.297 iter/sec)
+Iterations: 8300 of 10000  (535.682 iter/sec)
+Iterations: 8000 of 10000  (549.019 iter/sec)
+Iterations: 8000 of 10000  (570.259 iter/sec)
+Iterations: 7900 of 10000  (521.366 iter/sec)
+Iterations: 8200 of 10000  (475.989 iter/sec)
+Iterations: 8500 of 10000  (602.395 iter/sec)
+Iterations: 8300 of 10000  (617.208 iter/sec)
+Iterations: 8300 of 10000  (598.838 iter/sec)
+Iterations: 8300 of 10000  (571.246 iter/sec)
+Iterations: 8200 of 10000  (486.933 iter/sec)
+Iterations: 8100 of 10000  (505.188 iter/sec)
+Iterations: 8200 of 10000  (463.102 iter/sec)
+Iterations: 8400 of 10000  (528.044 iter/sec)
+Iterations: 8200 of 10000  (458.442 iter/sec)
+Iterations: 8200 of 10000  (494.205 iter/sec)
+Iterations: 8400 of 10000  (501.683 iter/sec)
+Iterations: 8400 of 10000  (490.396 iter/sec)
+Iterations: 8100 of 10000  (576.173 iter/sec)
+Iterations: 8100 of 10000  (565.768 iter/sec)
+Iterations: 8000 of 10000  (563.637 iter/sec)
+Iterations: 8600 of 10000  (558.575 iter/sec)
+Iterations: 8300 of 10000  (536.576 iter/sec)
+Iterations: 8400 of 10000  (543.647 iter/sec)
+Iterations: 8400 of 10000  (526.357 iter/sec)
+Iterations: 8300 of 10000  (591.118 iter/sec)
+Iterations: 8400 of 10000  (497.72 iter/sec)
+Iterations: 8500 of 10000  (568.25 iter/sec)
+Iterations: 8300 of 10000  (520.95 iter/sec)
+Iterations: 8200 of 10000  (445.426 iter/sec)
+Iterations: 8500 of 10000  (599.086 iter/sec)
+Iterations: 8300 of 10000  (527.649 iter/sec)
+Iterations: 8300 of 10000  (511.936 iter/sec)
+Iterations: 8500 of 10000  (555.908 iter/sec)
+Iterations: 8700 of 10000  (646.27 iter/sec)
+Iterations: 8100 of 10000  (581.635 iter/sec)
+Iterations: 8200 of 10000  (494.152 iter/sec)
+Iterations: 8200 of 10000  (492.895 iter/sec)
+Iterations: 8500 of 10000  (570.854 iter/sec)
+Iterations: 8500 of 10000  (566.566 iter/sec)
+Iterations: 8400 of 10000  (467.725 iter/sec)
+Iterations: 8400 of 10000  (534.334 iter/sec)
+Iterations: 8500 of 10000  (593.035 iter/sec)
+Iterations: 8800 of 10000  (691.654 iter/sec)
+Iterations: 8300 of 10000  (520.519 iter/sec)
+Iterations: 8600 of 10000  (477.158 iter/sec)
+Iterations: 8600 of 10000  (507.367 iter/sec)
+Iterations: 8400 of 10000  (479.644 iter/sec)
+Iterations: 8400 of 10000  (475.76 iter/sec)
+Iterations: 8600 of 10000  (516.956 iter/sec)
+Iterations: 8400 of 10000  (474.755 iter/sec)
+Iterations: 8200 of 10000  (498.49 iter/sec)
+Iterations: 8300 of 10000  (568.246 iter/sec)
+Iterations: 8300 of 10000  (563.101 iter/sec)
+Iterations: 8600 of 10000  (504.421 iter/sec)
+Iterations: 8500 of 10000  (555.411 iter/sec)
+Iterations: 8600 of 10000  (520.129 iter/sec)
+Iterations: 8500 of 10000  (590.204 iter/sec)
+Iterations: 8600 of 10000  (496.482 iter/sec)
+Iterations: 8700 of 10000  (640.985 iter/sec)
+Iterations: 8900 of 10000  (539.7 iter/sec)
+Iterations: 8500 of 10000  (596.139 iter/sec)
+Iterations: 8400 of 10000  (504.79 iter/sec)
+Iterations: 8700 of 10000  (521.222 iter/sec)
+Iterations: 8500 of 10000  (553.983 iter/sec)
+Iterations: 8700 of 10000  (578.965 iter/sec)
+Iterations: 8500 of 10000  (547.079 iter/sec)
+Iterations: 8700 of 10000  (594.725 iter/sec)
+Iterations: 8300 of 10000  (503.73 iter/sec)
+Iterations: 8400 of 10000  (498.776 iter/sec)
+Iterations: 8400 of 10000  (491.5 iter/sec)
+Iterations: 8700 of 10000  (556.852 iter/sec)
+Iterations: 8600 of 10000  (497.312 iter/sec)
+Iterations: 8600 of 10000  (454.087 iter/sec)
+Iterations: 8700 of 10000  (542.343 iter/sec)
+Iterations: 8800 of 10000  (615.593 iter/sec)
+Iterations: 9000 of 10000  (628.678 iter/sec)
+Iterations: 8500 of 10000  (617.848 iter/sec)
+Iterations: 8600 of 10000  (508.88 iter/sec)
+Iterations: 8800 of 10000  (527.713 iter/sec)
+Iterations: 8800 of 10000  (520.776 iter/sec)
+Iterations: 8600 of 10000  (476.606 iter/sec)
+Iterations: 8500 of 10000  (600.395 iter/sec)
+Iterations: 8800 of 10000  (571.086 iter/sec)
+Iterations: 8600 of 10000  (476.728 iter/sec)
+Iterations: 8500 of 10000  (535.298 iter/sec)
+Iterations: 8400 of 10000  (479.311 iter/sec)
+Iterations: 8800 of 10000  (520.736 iter/sec)
+Iterations: 8700 of 10000  (571.383 iter/sec)
+Iterations: 8800 of 10000  (541.788 iter/sec)
+Iterations: 8700 of 10000  (498.48 iter/sec)
+Iterations: 8900 of 10000  (502.573 iter/sec)
+Iterations: 9100 of 10000  (501.774 iter/sec)
+Iterations: 8700 of 10000  (583.366 iter/sec)
+Iterations: 8600 of 10000  (532.232 iter/sec)
+Iterations: 8900 of 10000  (492.148 iter/sec)
+Iterations: 8700 of 10000  (549.297 iter/sec)
+Iterations: 8900 of 10000  (480.437 iter/sec)
+Iterations: 8600 of 10000  (521.379 iter/sec)
+Iterations: 8700 of 10000  (542.711 iter/sec)
+Iterations: 8900 of 10000  (496.103 iter/sec)
+Iterations: 8800 of 10000  (596.477 iter/sec)
+Iterations: 8500 of 10000  (556.756 iter/sec)
+Iterations: 8600 of 10000  (489.33 iter/sec)
+Iterations: 8900 of 10000  (490.838 iter/sec)
+Iterations: 9000 of 10000  (583.009 iter/sec)
+Iterations: 8900 of 10000  (488.11 iter/sec)
+Iterations: 8700 of 10000  (628.117 iter/sec)
+Iterations: 9200 of 10000  (572.59 iter/sec)
+Iterations: 8800 of 10000  (500.784 iter/sec)
+Iterations: 8800 of 10000  (601.352 iter/sec)
+Iterations: 9000 of 10000  (576.804 iter/sec)
+Iterations: 8700 of 10000  (624.59 iter/sec)
+Iterations: 9000 of 10000  (576.073 iter/sec)
+Iterations: 8800 of 10000  (524.711 iter/sec)
+Iterations: 8800 of 10000  (542.158 iter/sec)
+Iterations: 9000 of 10000  (541.087 iter/sec)
+Iterations: 8700 of 10000  (566.466 iter/sec)
+Iterations: 8600 of 10000  (522.988 iter/sec)
+Iterations: 8900 of 10000  (490.069 iter/sec)
+Iterations: 9000 of 10000  (545.765 iter/sec)
+Iterations: 8800 of 10000  (578.486 iter/sec)
+Iterations: 9000 of 10000  (539.712 iter/sec)
+Iterations: 8900 of 10000  (550.364 iter/sec)
+Iterations: 9100 of 10000  (498.609 iter/sec)
+Iterations: 9300 of 10000  (529.238 iter/sec)
+Iterations: 8900 of 10000  (463.594 iter/sec)
+Iterations: 8800 of 10000  (614.965 iter/sec)
+Iterations: 9100 of 10000  (503.312 iter/sec)
+Iterations: 9100 of 10000  (502.235 iter/sec)
+Iterations: 8800 of 10000  (608.532 iter/sec)
+Iterations: 8900 of 10000  (477.516 iter/sec)
+Iterations: 8700 of 10000  (587.444 iter/sec)
+Iterations: 9000 of 10000  (590.117 iter/sec)
+Iterations: 9100 of 10000  (495.621 iter/sec)
+Iterations: 8900 of 10000  (478.987 iter/sec)
+Iterations: 9100 of 10000  (471.972 iter/sec)
+Iterations: 9000 of 10000  (578.999 iter/sec)
+Iterations: 9400 of 10000  (589.431 iter/sec)
+Iterations: 9200 of 10000  (583.223 iter/sec)
+Iterations: 8900 of 10000  (498.455 iter/sec)
+Iterations: 9100 of 10000  (483.877 iter/sec)
+Iterations: 9000 of 10000  (568.848 iter/sec)
+Iterations: 8900 of 10000  (486.211 iter/sec)
+Iterations: 9200 of 10000  (601.522 iter/sec)
+Iterations: 9200 of 10000  (512.353 iter/sec)
+Iterations: 8900 of 10000  (541.178 iter/sec)
+Iterations: 8800 of 10000  (574.538 iter/sec)
+Iterations: 9000 of 10000  (522.838 iter/sec)
+Iterations: 9200 of 10000  (569.658 iter/sec)
+Iterations: 9000 of 10000  (539.517 iter/sec)
+Iterations: 9100 of 10000  (500.398 iter/sec)
+Iterations: 9500 of 10000  (668.843 iter/sec)
+Iterations: 9000 of 10000  (605.925 iter/sec)
+Iterations: 9200 of 10000  (522.493 iter/sec)
+Iterations: 9300 of 10000  (518.476 iter/sec)
+Iterations: 9100 of 10000  (501.291 iter/sec)
+Iterations: 9200 of 10000  (568.848 iter/sec)
+Iterations: 9100 of 10000  (537.692 iter/sec)
+Iterations: 9000 of 10000  (602.076 iter/sec)
+Iterations: 9000 of 10000  (621.686 iter/sec)
+Iterations: 9300 of 10000  (519.883 iter/sec)
+Iterations: 8900 of 10000  (520.438 iter/sec)
+Iterations: 9300 of 10000  (466.762 iter/sec)
+Iterations: 9200 of 10000  (603.774 iter/sec)
+Iterations: 9600 of 10000  (572.698 iter/sec)
+Iterations: 9300 of 10000  (484.806 iter/sec)
+Iterations: 9100 of 10000  (492.388 iter/sec)
+Iterations: 9100 of 10000  (459.781 iter/sec)
+Iterations: 9100 of 10000  (545.857 iter/sec)
+Iterations: 9400 of 10000  (537.782 iter/sec)
+Iterations: 9300 of 10000  (486.973 iter/sec)
+Iterations: 9200 of 10000  (514.144 iter/sec)
+Iterations: 9200 of 10000  (576.904 iter/sec)
+Iterations: 9300 of 10000  (513.344 iter/sec)
+Iterations: 9100 of 10000  (520.013 iter/sec)
+Iterations: 9400 of 10000  (592.15 iter/sec)
+Iterations: 9100 of 10000  (484.705 iter/sec)
+Iterations: 9000 of 10000  (551.007 iter/sec)
+Iterations: 9700 of 10000  (590.176 iter/sec)
+Iterations: 9400 of 10000  (532.654 iter/sec)
+Iterations: 9400 of 10000  (571.804 iter/sec)
+Iterations: 9200 of 10000  (570.799 iter/sec)
+Iterations: 9300 of 10000  (483.115 iter/sec)
+Iterations: 9200 of 10000  (571.876 iter/sec)
+Iterations: 9200 of 10000  (473.579 iter/sec)
+Iterations: 9400 of 10000  (580.326 iter/sec)
+Iterations: 9400 of 10000  (553.869 iter/sec)
+Iterations: 9300 of 10000  (530.853 iter/sec)
+Iterations: 9500 of 10000  (483.601 iter/sec)
+Iterations: 9300 of 10000  (475.955 iter/sec)
+Iterations: 9500 of 10000  (572.393 iter/sec)
+Iterations: 9200 of 10000  (557.808 iter/sec)
+Iterations: 9200 of 10000  (538.93 iter/sec)
+Iterations: 9500 of 10000  (609.399 iter/sec)
+Iterations: 9500 of 10000  (555.732 iter/sec)
+Iterations: 9400 of 10000  (569.551 iter/sec)
+Iterations: 9800 of 10000  (486.63 iter/sec)
+Iterations: 9100 of 10000  (453.846 iter/sec)
+Iterations: 9300 of 10000  (502.452 iter/sec)
+Iterations: 9500 of 10000  (653.24 iter/sec)
+Iterations: 9300 of 10000  (513.055 iter/sec)
+Iterations: 9400 of 10000  (558.637 iter/sec)
+Iterations: 9500 of 10000  (526.807 iter/sec)
+Iterations: 9300 of 10000  (458.951 iter/sec)
+Iterations: 9400 of 10000  (530.24 iter/sec)
+Iterations: 9600 of 10000  (480.042 iter/sec)
+Iterations: 9300 of 10000  (511.203 iter/sec)
+Iterations: 9600 of 10000  (454.178 iter/sec)
+Iterations: 9300 of 10000  (503.066 iter/sec)
+Iterations: 9600 of 10000  (507.393 iter/sec)
+Iterations: 9600 of 10000  (524.896 iter/sec)
+Iterations: 9500 of 10000  (573.115 iter/sec)
+Iterations: 9400 of 10000  (617.353 iter/sec)
+Iterations: 9900 of 10000  (552.096 iter/sec)
+Iterations: 9200 of 10000  (508.303 iter/sec)
+Iterations: 9600 of 10000  (565.569 iter/sec)
+Iterations: 9400 of 10000  (550.046 iter/sec)
+Iterations: 9500 of 10000  (542.72 iter/sec)
+Iterations: 9600 of 10000  (487.322 iter/sec)
+Iterations: 9500 of 10000  (565.816 iter/sec)
+Iterations: 9700 of 10000  (573.743 iter/sec)
+Iterations: 9400 of 10000  (477.861 iter/sec)
+Iterations: 9400 of 10000  (564.866 iter/sec)
+Iterations: 9700 of 10000  (554.908 iter/sec)
+Iterations: 9700 of 10000  (596.15 iter/sec)
+Iterations: 9500 of 10000  (617.929 iter/sec)
+Iterations: 9400 of 10000  (550.591 iter/sec)
+Iterations: 9700 of 10000  (571.968 iter/sec)
+Iterations: 9700 of 10000  (588.356 iter/sec)
+Iterations: 9600 of 10000  (485.692 iter/sec)
+Iterations: 10000 of 10000  (491.645 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 67524942
+Total number of ray-subvolume intersection tests: 39389660
+Total number of ray-polygon intersection tests: 117809704
+Total number of ray-polygon intersections: 1676562
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.493924 (user) and 0.017997 (system)
+Simulation CPU time = 28.884609 (user) and 0.007999 (system)
+Total wall clock time = 30 seconds
+Iterations: 9500 of 10000  (542.176 iter/sec)
+Iterations: 9300 of 10000  (466.47 iter/sec)
+Iterations: 9700 of 10000  (600.983 iter/sec)
+Iterations: 9600 of 10000  (477.884 iter/sec)
+Iterations: 9800 of 10000  (536.159 iter/sec)
+Iterations: 9500 of 10000  (576.984 iter/sec)
+Iterations: 9600 of 10000  (506.052 iter/sec)
+Iterations: 9500 of 10000  (494.518 iter/sec)
+Iterations: 9800 of 10000  (484.435 iter/sec)
+Iterations: 9500 of 10000  (517.692 iter/sec)
+Iterations: 9800 of 10000  (519.456 iter/sec)
+Iterations: 9600 of 10000  (501.321 iter/sec)
+Iterations: 9800 of 10000  (487.936 iter/sec)
+Iterations: 9700 of 10000  (566.117 iter/sec)
+Iterations: 9800 of 10000  (490.513 iter/sec)
+Iterations: 9400 of 10000  (535.805 iter/sec)
+Iterations: 9600 of 10000  (474.201 iter/sec)
+Iterations: 9700 of 10000  (619.805 iter/sec)
+Iterations: 9900 of 10000  (567.879 iter/sec)
+Iterations: 9800 of 10000  (493.094 iter/sec)
+Iterations: 9700 of 10000  (542.129 iter/sec)
+Iterations: 9600 of 10000  (505.658 iter/sec)
+Iterations: 9600 of 10000  (514.843 iter/sec)
+Iterations: 9900 of 10000  (620.274 iter/sec)
+Iterations: 9700 of 10000  (577.614 iter/sec)
+Iterations: 9900 of 10000  (529.776 iter/sec)
+Iterations: 9900 of 10000  (523.305 iter/sec)
+Iterations: 9600 of 10000  (475.606 iter/sec)
+Iterations: 9900 of 10000  (548.201 iter/sec)
+Iterations: 9800 of 10000  (474.859 iter/sec)
+Iterations: 9500 of 10000  (536.242 iter/sec)
+Iterations: 9700 of 10000  (547.588 iter/sec)
+Iterations: 9800 of 10000  (530.862 iter/sec)
+Iterations: 10000 of 10000  (548.652 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 67895213
+Total number of ray-subvolume intersection tests: 39543667
+Total number of ray-polygon intersection tests: 118151500
+Total number of ray-polygon intersections: 1677755
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.511922 (user) and 0.016997 (system)
+Simulation CPU time = 28.996592 (user) and 0.006999 (system)
+Total wall clock time = 29 seconds
+Iterations: 9700 of 10000  (611.741 iter/sec)
+Iterations: 9900 of 10000  (483.821 iter/sec)
+Iterations: 9700 of 10000  (522.537 iter/sec)
+Iterations: 9800 of 10000  (498.067 iter/sec)
+Iterations: 10000 of 10000  (595.837 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68039571
+Total number of ray-subvolume intersection tests: 39599160
+Total number of ray-polygon intersection tests: 117449294
+Total number of ray-polygon intersections: 1670566
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.511922 (user) and 0.016997 (system)
+Simulation CPU time = 29.004590 (user) and 0.003999 (system)
+Total wall clock time = 29 seconds
+Iterations: 10000 of 10000  (510.425 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68223414
+Total number of ray-subvolume intersection tests: 39687785
+Total number of ray-polygon intersection tests: 118973400
+Total number of ray-polygon intersections: 1686761
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.514921 (user) and 0.013997 (system)
+Simulation CPU time = 29.237555 (user) and 0.009999 (system)
+Total wall clock time = 30 seconds
+Iterations: 9800 of 10000  (490.61 iter/sec)
+Iterations: 10000 of 10000  (546.415 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68756363
+Total number of ray-subvolume intersection tests: 39898442
+Total number of ray-polygon intersection tests: 118831991
+Total number of ray-polygon intersections: 1682202
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.495924 (user) and 0.019996 (system)
+Simulation CPU time = 29.376534 (user) and 0.006000 (system)
+Total wall clock time = 30 seconds
+Iterations: 9700 of 10000  (536.639 iter/sec)
+Iterations: 10000 of 10000  (540.088 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68099751
+Total number of ray-subvolume intersection tests: 39628940
+Total number of ray-polygon intersection tests: 118148190
+Total number of ray-polygon intersections: 1677884
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.514921 (user) and 0.017997 (system)
+Simulation CPU time = 29.048584 (user) and 0.004999 (system)
+Total wall clock time = 29 seconds
+Iterations: 9900 of 10000  (520.27 iter/sec)
+Iterations: 9900 of 10000  (619.433 iter/sec)
+Iterations: 9600 of 10000  (501.779 iter/sec)
+Iterations: 9800 of 10000  (511.117 iter/sec)
+Iterations: 9900 of 10000  (625.532 iter/sec)
+Iterations: 9800 of 10000  (504.261 iter/sec)
+Iterations: 10000 of 10000  (525.975 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68524034
+Total number of ray-subvolume intersection tests: 39809032
+Total number of ray-polygon intersection tests: 119670411
+Total number of ray-polygon intersections: 1687476
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.514921 (user) and 0.015997 (system)
+Simulation CPU time = 29.314544 (user) and 0.009999 (system)
+Total wall clock time = 30 seconds
+Iterations: 9800 of 10000  (491.734 iter/sec)
+Iterations: 9900 of 10000  (538.013 iter/sec)
+Iterations: 10000 of 10000  (653.095 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68108654
+Total number of ray-subvolume intersection tests: 39637757
+Total number of ray-polygon intersection tests: 118629352
+Total number of ray-polygon intersections: 1681347
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.512922 (user) and 0.014997 (system)
+Simulation CPU time = 29.124572 (user) and 0.009999 (system)
+Total wall clock time = 29 seconds
+Iterations: 9800 of 10000  (485.267 iter/sec)
+Iterations: 10000 of 10000  (554.394 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68279077
+Total number of ray-subvolume intersection tests: 39700730
+Total number of ray-polygon intersection tests: 118924873
+Total number of ray-polygon intersections: 1679700
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.509922 (user) and 0.016997 (system)
+Simulation CPU time = 29.137570 (user) and 0.008999 (system)
+Total wall clock time = 29 seconds
+Iterations: 9900 of 10000  (661.354 iter/sec)
+Iterations: 9700 of 10000  (605.444 iter/sec)
+Iterations: 10000 of 10000  (674.828 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 69324282
+Total number of ray-subvolume intersection tests: 40150222
+Total number of ray-polygon intersection tests: 120294460
+Total number of ray-polygon intersections: 1690360
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.498924 (user) and 0.020996 (system)
+Simulation CPU time = 29.552507 (user) and 0.007999 (system)
+Total wall clock time = 30 seconds
+Iterations: 9900 of 10000  (588.114 iter/sec)
+Iterations: 9900 of 10000  (600.287 iter/sec)
+Iterations: 10000 of 10000  (583.843 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68994539
+Total number of ray-subvolume intersection tests: 40006630
+Total number of ray-polygon intersection tests: 120084179
+Total number of ray-polygon intersections: 1688869
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.502923 (user) and 0.023996 (system)
+Simulation CPU time = 29.335540 (user) and 0.008998 (system)
+Total wall clock time = 29 seconds
+Iterations: 10000 of 10000  (680.601 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 69410505
+Total number of ray-subvolume intersection tests: 40180819
+Total number of ray-polygon intersection tests: 120157326
+Total number of ray-polygon intersections: 1691332
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.503923 (user) and 0.019996 (system)
+Simulation CPU time = 29.608499 (user) and 0.005000 (system)
+Total wall clock time = 31 seconds
+Iterations: 9900 of 10000  (636.849 iter/sec)
+Iterations: 9800 of 10000  (590.315 iter/sec)
+Iterations: 10000 of 10000  (598.122 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 69762256
+Total number of ray-subvolume intersection tests: 40329659
+Total number of ray-polygon intersection tests: 120739548
+Total number of ray-polygon intersections: 1697878
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.507922 (user) and 0.021996 (system)
+Simulation CPU time = 29.786472 (user) and 0.007999 (system)
+Total wall clock time = 31 seconds
+Iterations: 10000 of 10000  (589.626 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 68857477
+Total number of ray-subvolume intersection tests: 39942078
+Total number of ray-polygon intersection tests: 119178218
+Total number of ray-polygon intersections: 1682665
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.512922 (user) and 0.012998 (system)
+Simulation CPU time = 29.332540 (user) and 0.009998 (system)
+Total wall clock time = 30 seconds
+Iterations: 10000 of 10000  (702.706 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 69472859
+Total number of ray-subvolume intersection tests: 40204321
+Total number of ray-polygon intersection tests: 119959117
+Total number of ray-polygon intersections: 1692746
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.512922 (user) and 0.014997 (system)
+Simulation CPU time = 29.647492 (user) and 0.006999 (system)
+Total wall clock time = 31 seconds
+Iterations: 9900 of 10000  (746.013 iter/sec)
+Iterations: 10000 of 10000  (762.137 iter/sec)
+iterations = 10000 ; elapsed time = 0.01 seconds
+Average diffusion jump was 0.98 timesteps
+
+Total number of random number use: 70262068
+Total number of ray-subvolume intersection tests: 40552947
+Total number of ray-polygon intersection tests: 121638141
+Total number of ray-polygon intersections: 1699125
+Total number of dynamic geometry molecule displacements: 0
+Initialization CPU time = 0.508922 (user) and 0.018997 (system)
+Simulation CPU time = 29.833465 (user) and 0.006999 (system)
+Total wall clock time = 31 seconds

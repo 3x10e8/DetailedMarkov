@@ -1,0 +1,39 @@
+INCLUDE_FILE = "Scene.parameters.mdl"
+
+
+/*** Beginning of internal script "vr_pre.py" included after parameters ***/
+
+
+  /* Before executing internal Python script "vr_pre.py" after parameters */
+
+vdcc_pre_k_a1_vm = "hva_pre_a1.dat"
+vdcc_pre_k_a2_vm = "hva_pre_a2.dat"
+vdcc_pre_k_a3_vm = "hva_pre_a3.dat"
+vdcc_pre_k_a4_vm = "hva_pre_a4.dat"
+vdcc_pre_k_b1_vm = "hva_pre_b1.dat"
+vdcc_pre_k_b2_vm = "hva_pre_b2.dat"
+vdcc_pre_k_b3_vm = "hva_pre_b3.dat"
+vdcc_pre_k_b4_vm = "hva_pre_b4.dat"
+vdcc_pre_k_ca_vm = "hva_pre_IV.dat"
+
+  /* After executing internal Python script "vr_pre.py" after parameters */
+
+
+/*** End of internal script "vr_pre.py" included after parameters ***/
+
+INCLUDE_FILE = "Scene.initialization.mdl"
+
+INCLUDE_FILE = "Scene.molecules.mdl"
+
+INCLUDE_FILE = "Scene.surface_classes.mdl"
+
+INCLUDE_FILE = "Scene.reactions.mdl"
+
+INCLUDE_FILE = "Scene.geometry.mdl"
+
+INCLUDE_FILE = "Scene.mod_surf_regions.mdl"
+
+INCLUDE_FILE = "Scene.instantiation.mdl"
+
+sprintf(seed,"%05g",SEED)
+

@@ -1,0 +1,82 @@
+INSTANTIATE Scene OBJECT
+{
+  a001 OBJECT a001 {}
+  ca_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = ca
+   CONCENTRATION = conc_ca
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h0m0_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h0m0
+   CONCENTRATION = conc_calbindin*calbindin_h0m0_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h0m1_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h0m1
+   CONCENTRATION = conc_calbindin*calbindin_h0m1_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h0m2_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h0m2
+   CONCENTRATION = conc_calbindin*calbindin_h0m2_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h1m0_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h1m0
+   CONCENTRATION = conc_calbindin*calbindin_h1m0_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h1m1_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h1m1
+   CONCENTRATION = conc_calbindin*calbindin_h1m1_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h1m2_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h1m2
+   CONCENTRATION = conc_calbindin*calbindin_h1m2_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h2m0_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h2m0
+   CONCENTRATION = conc_calbindin*calbindin_h2m0_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h2m1_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h2m1
+   CONCENTRATION = conc_calbindin*calbindin_h2m1_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  calbindin_h2m2_pre_rel RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = calbindin_h2m2
+   CONCENTRATION = conc_calbindin*calbindin_h2m2_fraction
+   RELEASE_PROBABILITY = 1
+  }
+  ca_rel_ap RELEASE_SITE
+  {
+   SHAPE = Scene.a001
+   MOLECULE = ca
+   NUMBER_TO_RELEASE = 5275
+   RELEASE_PROBABILITY = 1
+  }
+}
+

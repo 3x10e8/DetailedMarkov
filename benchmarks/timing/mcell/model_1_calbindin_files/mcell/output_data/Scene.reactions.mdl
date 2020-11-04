@@ -1,0 +1,16 @@
+DEFINE_REACTIONS
+{
+  calbindin_h0m0 + ca <-> calbindin_h1m0 [>calbindin_k_h0h1, <calbindin_k_h1h0]
+  calbindin_h1m0 + ca <-> calbindin_h2m0 [>calbindin_k_h1h2, <calbindin_k_h2h1]
+  calbindin_h0m1 + ca <-> calbindin_h1m1 [>calbindin_k_h0h1, <calbindin_k_h1h0]
+  calbindin_h1m1 + ca <-> calbindin_h2m1 [>calbindin_k_h1h2, <calbindin_k_h2h1]
+  calbindin_h0m2 + ca <-> calbindin_h1m2 [>calbindin_k_h0h1, <calbindin_k_h1h0]
+  calbindin_h1m2 + ca <-> calbindin_h2m2 [>calbindin_k_h1h2, <calbindin_k_h2h1]
+  calbindin_h0m0 + ca <-> calbindin_h0m1 [>calbindin_k_m0m1, <calbindin_k_m1m0]
+  calbindin_h0m1 + ca <-> calbindin_h0m2 [>calbindin_k_m1m2, <calbindin_k_m2m1]
+  calbindin_h1m0 + ca <-> calbindin_h1m1 [>calbindin_k_m0m1, <calbindin_k_m1m0]
+  calbindin_h1m1 + ca <-> calbindin_h1m2 [>calbindin_k_m1m2, <calbindin_k_m2m1]
+  calbindin_h2m0 + ca <-> calbindin_h2m1 [>calbindin_k_m0m1, <calbindin_k_m1m0]
+  calbindin_h2m1 + ca <-> calbindin_h2m2 [>calbindin_k_m1m2, <calbindin_k_m2m1]
+}
+

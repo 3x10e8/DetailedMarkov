@@ -1,0 +1,63 @@
+DEFINE_MOLECULES
+{
+  calbindin_h0m0
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h0m1
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h0m2
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h1m0
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h1m1
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h1m2
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h2m0
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h2m1
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  calbindin_h2m2
+  {
+    DIFFUSION_CONSTANT_3D = d_calbindin
+    CUSTOM_SPACE_STEP = 0.1
+    TARGET_ONLY
+  }
+  ca
+  {
+    DIFFUSION_CONSTANT_3D = d_ca
+    CUSTOM_TIME_STEP = 1e-7
+  }
+}
+

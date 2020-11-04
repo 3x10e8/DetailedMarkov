@@ -15,8 +15,12 @@ from scipy import stats
 
 
 def time_hist(iter_num, plot=True):
-    mcell_viz_dir = "/Users/margotwagner/projects/mcell/simple_geom/" \
-                    "infinite_space/half_space_plane_files/mcell/output_data/viz_data_ascii"
+    #mcell_viz_dir = "/Users/margotwagner/projects/mcell/simple_geom/" \
+    #                "infinite_space/half_space_plane_files/mcell/output_data/viz_data_ascii"
+
+    mcell_viz_dir = "/Users/margotwagner/projects/mcell/simple_geom/model_1/" \
+                    "model_1_vdcceqtns_tchange_nodendrite_files/mcell/" \
+                    "output_data/viz_data_ascii"
 
     ca_hist = []
     for seed in sorted(os.listdir(mcell_viz_dir)):
