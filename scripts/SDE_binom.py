@@ -147,36 +147,34 @@ def k_ca(t):
            ((1000 ** 2) * Z_ca * e_c * (1 - np.exp(v_m(t) / c)))
 
 
-
 ##########################
 #### SDE INTEGRATION #####
 ##########################
 
 # MAKE THIS BETTER!!!
 def sde(y0, t_start, t_stop, dt):
-    t = np.arange(t_start, t_stop + dt, dt) # range of t values
+    t = np.arange(t_start, t_stop + dt, dt)  # range of t values
 
     # Initialize states
     c0, c1, c2, c3, op, ca = [np.zeros(len(t)) for _ in range(len(y0))]
     c0s, c1s, c2s, c3s, ops, cas = [np.zeros(len(t)) for _ in range(len(y0))]
 
-    nc = y0[0] # number of channels
+    nc = y0[0]  # number of channels
 
     # Initial conditions
-    c0[0] = y0[0]/nc
+    c0[0] = y0[0] / nc
     c1[0] = y0[1]
     c2[0] = y0[2]
     c3[0] = y0[3]
     op[0] = y0[4]
     ca[0] = y0[5]
 
-    c0s[0] = y0[0]/nc
+    c0s[0] = y0[0] / nc
     c1s[0] = y0[1]
     c2s[0] = y0[2]
     c3s[0] = y0[3]
     ops[0] = y0[4]
     cas[0] = y0[5]
-
 
     # Simulate
     for n in range(len(t) - 1):
@@ -189,7 +187,6 @@ def sde(y0, t_start, t_stop, dt):
         c3[n] = np.clip(c3[n], 0, 1)
         op[n] = np.clip(op[n], 0, 1)
 
-
         with np.errstate(all='raise'):
             try:
                 c0s[n] = normal(c0[n], np.sqrt(c0[n] * (1 - c0[n]) / nc))
@@ -197,17 +194,17 @@ def sde(y0, t_start, t_stop, dt):
                 c2s[n] = normal(c2[n], np.sqrt(c2[n] * (1 - c2[n]) / nc))
                 c3s[n] = normal(c3[n], np.sqrt(c3[n] * (1 - c3[n]) / nc))
                 ops[n] = normal(op[n], np.sqrt(op[n] * (1 - op[n]) / nc))
-            #cas[n] = normal(ca[n], np.sqrt(ca[n] / nc)) # unclear
+            # cas[n] = normal(ca[n], np.sqrt(ca[n] / nc)) # unclear
             except FloatingPointError:
                 print("warning")
-                print("c0:", c0[n], c0s[n-1])
-                print("c1:", c1[n], c1s[n-1])
-                print("c2:", c2[n], c2[n-1], c2s[n-1])
-                print("c3:", c3[n], c3s[n-1])
-                print("op:", op[n], op[n-1], ops[n-1])
+                print("c0:", c0[n], c0s[n - 1])
+                print("c1:", c1[n], c1s[n - 1])
+                print("c2:", c2[n], c2[n - 1], c2s[n - 1])
+                print("c3:", c3[n], c3s[n - 1])
+                print("op:", op[n], op[n - 1], ops[n - 1])
                 break
 
-        #print(c3[n])
+        # print(c3[n])
 
         # truncate (set to zero where <0, set to 1 where >1)
         c0s[n] = np.clip(c0s[n], 0, 1)
@@ -215,55 +212,25 @@ def sde(y0, t_start, t_stop, dt):
         c2s[n] = np.clip(c2s[n], 0, 1)
         c3s[n] = np.clip(c3s[n], 0, 1)
         ops[n] = np.clip(ops[n], 0, 1)
-        #cas[n] = np.clip(cas[n], 0, 1)
+        # cas[n] = np.clip(cas[n], 0, 1)
 
-        #print(c3[n])
+        # print(c3[n])
 
         # Solve for next val for mean sol (prev mean step + deriv using noisy sol)
-        c0[n+1] = c0[n] + (b1(t[n])*c1s[n] - a1(t[n])*c0s[n]) * dt
+        c0[n + 1] = c0[n] + (b1(t[n]) * c1s[n] - a1(t[n]) * c0s[n]) * dt
 
-        c1[n+1] = c1[n] + (a1(t[n])*c0s[n] + b2(t[n])*c2s[n]
-                           - (b1(t[n]) + a2(t[n]))*c1s[n]) * dt
+        c1[n + 1] = c1[n] + (a1(t[n]) * c0s[n] + b2(t[n]) * c2s[n]
+                             - (b1(t[n]) + a2(t[n])) * c1s[n]) * dt
 
-        c2[n+1] = c2[n] + (a2(t[n])*c1s[n] + b3(t[n])*c3s[n]
-                           - (b2(t[n]) + a3(t[n]))*c2s[n]) * dt
+        c2[n + 1] = c2[n] + (a2(t[n]) * c1s[n] + b3(t[n]) * c3s[n]
+                             - (b2(t[n]) + a3(t[n])) * c2s[n]) * dt
 
-        c3[n+1] = c3[n] + (a3(t[n])*c2s[n] + b4(t[n])*ops[n]
-                           - (b3(t[n]) + a4(t[n]))*c3s[n]) * dt
+        c3[n + 1] = c3[n] + (a3(t[n]) * c2s[n] + b4(t[n]) * ops[n]
+                             - (b3(t[n]) + a4(t[n])) * c3s[n]) * dt
 
-        op[n+1] = op[n] + (a4(t[n])*c3s[n] - b4(t[n])*ops[n]) * dt
+        op[n + 1] = op[n] + (a4(t[n]) * c3s[n] - b4(t[n]) * ops[n]) * dt
 
-        #ca[n+1] = ca[n] + (k_ca(t[n])*ops[n]) * dt
-
-        # Solve for next step for SDE solution (prev mean step + deriv using sampled mean)
-        '''
-        
-        c0s[n+1] = c0[n] \
-                   + (b1(t[n])*normal(c1[n], np.sqrt(c1[n]*(1-c1[n])/nc))
-                    - a1(t[n])*normal(c0[n], np.sqrt(c0[n]*(1-c0[n])/nc))) * dt
-
-        c1s[n+1] = c1[n] \
-                   + (a1(t[n])*normal(c0[n], np.sqrt(c0[n]*(1-c0[n])/nc))
-                    + b2(t[n])*normal(c2[n], np.sqrt(c2[n]*(1-c2[n])/nc))
-                    - (b1(t[n]) + a2(t[n]))*normal(c1[n], np.sqrt(c1[n]*(1-c1[n])/nc))) * dt
-
-        c2s[n+1] = c2[n] \
-                   + (a2(t[n])*normal(c1[n], np.sqrt(c1[n]*(1-c1[n])/nc))
-                    + b3(t[n])*normal(c3[n], np.sqrt(c3[n]*(1-c3[n])/nc))
-                    - (b2(t[n]) + a3(t[n]))*normal(c2[n], np.sqrt(c2[n]*(1-c2[n])/nc))) * dt
-
-        c3s[n+1] = c3[n] \
-                   + (a3(t[n])*normal(c2[n], np.sqrt(c2[n]*(1-c2[n])/nc))
-                    + b4(t[n])*normal(op[n], np.sqrt(op[n]*(1-op[n])/nc))
-                    - (b3(t[n]) + a4(t[n]))*normal(c3[n], np.sqrt(c3[n]*(1-c3[n])/nc))) * dt
-
-        ops[n+1] = op[n] \
-                  + (a4(t[n])*normal(c3[n], np.sqrt(c3[n]*(1-c3[n])/nc))
-                    - b4(t[n])*normal(op[n], np.sqrt(op[n]*(1-op[n])/nc))) * dt
-
-        cas[n+1] = ca[n] + (k_ca(t[n])*normal(op[n], np.sqrt(op[n]*(1-op[n])/nc))) * dt
-        
-        '''
+        # ca[n+1] = ca[n] + (k_ca(t[n])*ops[n]) * dt
 
     return c0, c1, c2, c3, op, ca, c0s, c1s, c2s, c3s, ops, cas
 
@@ -276,7 +243,7 @@ y0 = [65, 0, 0, 0, 0, 0]
 dt = 1e-3
 t_start = 0
 t_stop = 10
-t = np.arange(t_start, t_stop + dt, dt) # range of t values
+t = np.arange(t_start, t_stop + dt, dt)  # range of t values
 
 print("Starting simulation...")
 c0, c1, c2, c3, op, ca, c0s, c1s, c2s, c3s, ops, cas = sde(y0, t_start, t_stop, dt)
@@ -288,28 +255,3 @@ plt.xlim(0, 6)
 
 plt.savefig('/Users/margotwagner/projects/DetailedMarkov/scripts/sde.png')
 plt.show()
-'''
-fig, ax = plt.subplots(3, 2, figsize = (20,20))
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-ax[0,0].plot(t, c0, linewidth=3, label="mean C0")
-
-# Make plots nice
-states = ['C0', 'C1', 'C2', 'C3', 'O', '']
-for a, i in zip(ax.flatten(), range(len(states))):
-    a.set_xlim(0, 6)
-    a.tick_params(labelsize=20)
-    a.set_xlabel('time (ms)', fontsize=26)
-    a.legend(prop={"size": 20})
-    a.set_ylabel('fraction of VDCCs ({})'.format(states[i]), fontsize=26)
-
-ax[2, 1].set_ylabel('calcium influx per open vdcc'.format(states[i]), fontsize=26)
-
-plt.tight_layout(pad=1, w_pad=6)
-
-'''
-
