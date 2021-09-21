@@ -22,14 +22,15 @@ CONC_CA_AP = N_CA_AP / AXON_VOL / AVAGADRO
 CONC_CALB = 45e-6  # M
 #N_CALB = int(round(AXON_VOL * CONC_CALB * AVAGADRO))
 N_CALB = 100
-seed = 1
-#seed = int(sys.argv[1])
+
+#seed = 1
+seed = int(sys.argv[1])
 np.random.seed(seed)
 
 
 def calb_markov_ineff(n_calb, n_ca, trange, dt):
-    total_setup_time = 0
-    setup_start_time = time.time()
+    #total_setup_time = 0
+    #setup_start_time = time.time()
     
     '''Constants'''
     idx_t0 = 0  # initial conditions index
@@ -114,16 +115,16 @@ def calb_markov_ineff(n_calb, n_ca, trange, dt):
     # Initial amount of calcium
     ca[idx_t0] = n_ca
 
-    total_setup_time += time.time() - setup_start_time
+    #total_setup_time += time.time() - setup_start_time
     '''Simulation'''
-    total_rng_time = 0
-    total_search_time = 0
-    total_nonzero_time = 0
-    total_p_time = 0
+    #total_rng_time = 0
+    #total_search_time = 0
+    #total_nonzero_time = 0
+    #total_p_time = 0
     step = 1
     # All time points except last state
     for t_i in range(len(trange) - 1):
-        p_start_time = time.time()
+        #p_start_time = time.time()
         # transition probabilities
         p = np.array(
                 [[1 - (k[0] * ca[t_i] * dt + k[4] * ca[t_i] * dt), k[0] * ca[t_i] * dt, 0, k[4] * ca[t_i] * dt, 0,
@@ -150,19 +151,19 @@ def calb_markov_ineff(n_calb, n_ca, trange, dt):
                   k[1] * ca[t_i] * dt],
 
                  [0, 0, 0, 0, 0, k[7] * dt, 0, k[3] * dt, 1 - (k[7] * dt + k[3] * dt)]])
-        total_p_time += time.time() - p_start_time
+        #total_p_time += time.time() - p_start_time
 
         for c_i in range(n_calb):
-            rng_start_time = time.time()
+            #rng_start_time = time.time()
             # random number
             r = np.random.rand(1)
-            rng_time = time.time() - rng_start_time
-            total_rng_time += rng_time
+            #rng_time = time.time() - rng_start_time
+            #total_rng_time += rng_time
 
             # molecule-specific state transitions
             p_trans = p[states[c_i, t_i]]
             
-            search_start_time = time.time()
+            #search_start_time = time.time()
             if r <= np.cumsum(p_trans)[0] and p_trans[0] != 0:
                 states[c_i, t_i + 1] = 0
 
@@ -189,24 +190,24 @@ def calb_markov_ineff(n_calb, n_ca, trange, dt):
 
             elif r > np.cumsum(p_trans)[8] and p_trans[8] != 0:
                 states[c_i, t_i + 1] = 8
-            search_time = time.time() - search_start_time
-            total_search_time += search_time
+            #search_time = time.time() - search_start_time
+            #total_search_time += search_time
             #print("search time:", search_time)
 
-        nonzero_start_time = time.time()
+        #nonzero_start_time = time.time()
         for i in range(n_states):
             n_per_state[t_i, i] = len(np.nonzero(states[:, t_i] == i))
-        total_nonzero_time += time.time() - nonzero_start_time
+        #total_nonzero_time += time.time() - nonzero_start_time
 
         # Multiple sample by calcium change matrix and sum all calcium changes to get overall change
         sample = np.zeros((n_states, n_states))
         ca[t_i + 1] = ca[t_i] + np.sum(np.multiply(sample, delta_ca))
 
-    print('rng time: \t{0}'.format(total_rng_time))
-    print('search time: \t{0}'.format(total_search_time))
-    print('nonzero time: \t{0}'.format(total_nonzero_time))
-    print('setup time: \t{0}'.format(total_setup_time))
-    print('p time: \t{0}'.format(total_p_time))
+    #print('rng time: \t{0}'.format(total_rng_time))
+    #print('search time: \t{0}'.format(total_search_time))
+    #print('nonzero time: \t{0}'.format(total_nonzero_time))
+    #print('setup time: \t{0}'.format(total_setup_time))
+    #print('p time: \t{0}'.format(total_p_time))
 
     return states, n_per_state, ca
 
@@ -219,7 +220,7 @@ start_time = time.time()
 calb_markov_ineff(N_CALB, N_CA, t_range, dt)
 sim_time = time.time() - start_time
 
-print('total time: \t{0}\t{1}'.format(seed, sim_time))
+print('{0}\t{1}'.format(seed, sim_time))
 
 
 
