@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/bartol/bin/python3
 import sys
 import os
 import math
@@ -7,7 +7,7 @@ import math
 if __name__ == '__main__':
 
   if (len(sys.argv)<3):
-    print '\nUsage: %s seed_list_spec seeds_per_node script_exec\n' % (sys.argv[0])
+    print('\nUsage: %s seed_list_spec seeds_per_node script_exec\n' % (sys.argv[0]))
     sys.exit()
   else:
     seed_list_spec = sys.argv[1]
