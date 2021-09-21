@@ -24,9 +24,10 @@ CONC_CA_AP = N_CA_AP / AXON_VOL / AVAGADRO
 CONC_CALB = 45e-6    # M
 N_CALB = int(round(AXON_VOL * CONC_CALB * AVAGADRO))
 
-
-seed = int(sys.argv[1])
+seed = 1
+#seed = int(sys.argv[1])
 np.random.seed(seed)
+
 def calb_markov(n_calb, n_ca, trange, dt):
     '''
     Simulates a Markov process for the stochastic opening and closing of channels using
@@ -41,6 +42,8 @@ def calb_markov(n_calb, n_ca, trange, dt):
     @return ca (int array) - number of calcium that enters at each time point (shape: [trange])
     @return ca_sum (int array) - total sum of calcium that has entered at that time (shape: [trange])
     '''
+    total_setup_time = 0
+    setup_start_time = time.time()
 
     '''Constants'''
     idx_t0 = 0  # initial conditions index
@@ -119,7 +122,11 @@ def calb_markov(n_calb, n_ca, trange, dt):
     ca[idx_t0] = n_ca
     #print("Starting calcium number:", ca[idx_t0])
 
+    total_setup_time += time.time() - setup_start_time
     '''Simulation'''
+    total_mult_time = 0
+    total_p_time = 0
+
     step = 1
     # All time points except last state
     for t_i in range(len(trange) - 1):
@@ -128,6 +135,7 @@ def calb_markov(n_calb, n_ca, trange, dt):
         sum_k_bind[t_i] = np.sum(np.multiply((n_per_state[t_i]/N_CALB), k_bind))
         sum_k_unbind[t_i] = np.sum(np.multiply(n_per_state[t_i]/N_CALB, k_unbind))
 
+        p_start_time = time.time()
         # transition probabilities
         p = np.array(
             [[1 - (k[0] * ca[t_i] * dt + k[4] * ca[t_i] * dt), k[0] * ca[t_i] * dt, 0, k[4] * ca[t_i] * dt, 0,
@@ -155,14 +163,18 @@ def calb_markov(n_calb, n_ca, trange, dt):
 
              [0, 0, 0, 0, 0, k[7] * dt, 0, k[3] * dt, 1 - (k[7] * dt + k[3] * dt)]])
 
+        total_p_time += time.time() - p_start_time
+
         # Samples from multinomial distribution
         # the drawn samples = np.random.multinomial(n experiments, (p)robabilities)
         # determine the number at the next time point
         sample = np.zeros((n_states, n_states))
 
+        mult_start_time = time.time()
         # Draw a transition sample from each state
         for i in range(n_states):
             sample[i, :] = np.random.multinomial(n_per_state[t_i, i], p[i])
+        total_mult_time += time.time() - mult_start_time
 
         # Sum samples for each state from all states to get total number of calbindin
         # in each state at the next time point
@@ -170,6 +182,10 @@ def calb_markov(n_calb, n_ca, trange, dt):
 
         # Multiple sample by calcium change matrix and sum all calcium changes to get overall change
         ca[t_i + step] = ca[t_i] + np.sum(np.multiply(sample, delta_ca))
+
+    print('setup time: \t{0}'.format(total_setup_time))
+    print('multinomial time: \t{0}'.format(total_mult_time))
+    print('p time: \t{0}'.format(total_p_time))
 
     return n_per_state, ca, sum_k_bind, sum_k_unbind
 
@@ -184,4 +200,4 @@ start_time = time.time()
 calb_markov(N_CALB, N_CA, t_range, dt)
 sim_time = time.time() - start_time
 
-print('{0}\t{1}'.format(seed, sim_time))
+print('total time: {0}\t{1}'.format(seed, sim_time))
