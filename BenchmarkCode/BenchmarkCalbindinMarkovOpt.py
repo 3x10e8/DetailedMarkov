@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/home/bartol/bin/python3
 
 # import packages
 #import matplotlib.pyplot as plt

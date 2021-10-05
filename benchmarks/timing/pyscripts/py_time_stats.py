@@ -25,7 +25,6 @@ def stats_pytime(fname):
 
 files = glob.glob('calb*')
 files.extend(glob.glob('vdcc*'))
-files.remove('calb_markov')
 
 for file in sorted(files):
     stats_pytime(file)

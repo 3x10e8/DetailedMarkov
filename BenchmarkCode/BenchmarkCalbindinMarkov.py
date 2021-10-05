@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/bartol/bin/python3
 
 # import packages
 import numpy as np

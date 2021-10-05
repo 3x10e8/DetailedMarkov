@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 # import packages
 import numpy as np
@@ -113,13 +113,8 @@ def calb_markov_ineff(n_calb, n_ca, trange, dt):
     step = 1
     # All time points except last state
     for t_i in range(len(trange) - 1):
-        for c_i in range(n_calb):
-
-            # random number
-            r = np.random.rand(1)
-
-            # transition probabilities
-            p = np.array(
+        # transition probabilities
+        p = np.array(
                 [[1 - (k[0] * ca[t_i] * dt + k[4] * ca[t_i] * dt), k[0] * ca[t_i] * dt, 0, k[4] * ca[t_i] * dt, 0,
                   0, 0, 0, 0],
 
@@ -144,6 +139,12 @@ def calb_markov_ineff(n_calb, n_ca, trange, dt):
                   k[1] * ca[t_i] * dt],
 
                  [0, 0, 0, 0, 0, k[7] * dt, 0, k[3] * dt, 1 - (k[7] * dt + k[3] * dt)]])
+        for c_i in range(n_calb):
+
+            # random number
+            r = np.random.rand(1)
+
+            
 
             # state transitions
             p_trans = p[states[c_i, t_i]]
