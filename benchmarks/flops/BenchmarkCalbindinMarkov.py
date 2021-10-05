@@ -3,7 +3,7 @@
 # import packages
 import numpy as np
 import sys
-from pypapi import events, papi_high
+from pypapi import events, high
 
 'Making changes using PyPapi 5.5.1 -- https://flozz.github.io/pypapi/papi_high.html'
 
@@ -193,12 +193,12 @@ t_start = 0
 t_range = np.arange(t_start, t_stop + dt, dt)
 
 # FLOPS
-#high.start_counters([events.PAPI_DP_OPS,]) OLD CODE UPDATED 10/5/21
-papi_high.flops() # start counters
+high.start_counters([events.PAPI_DP_OPS,]) # start counters
+#papi_high.flops() # start counters
 
 calb_markov_ineff(N_CALB, N_CA, t_range, dt) # run simulations
 
-flops = papi_high.stop_counters() # stop counters
+flops = high.stop_counters() # stop counters
 print(flops) # read values
 
 
